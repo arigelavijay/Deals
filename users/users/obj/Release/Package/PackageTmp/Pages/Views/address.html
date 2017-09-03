@@ -1,0 +1,25 @@
+﻿<div class="pageWrapper container" ng-controller="AddressCntrl">
+    <rx-shopy-loader is-data-loading="isDataLoading"></rx-shopy-loader>
+    <div class="main-container col1-layout row" ng-hide="isDataLoading">
+        <div class="main corner-round col-sm-12">
+            <div class="col-main">
+                <div class="order" style="min-height: 400px;">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <button class=" btn-proceed-checkout btn-checkout button" ng-click="addAddress()">Add Address</button>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 30px;" >
+                        <div class="col-md-3" ng-repeat="address in addresses">  
+                                                      
+                          <div class=" well well-sm">                            
+                            <user-address data="address" action="true"></user-address>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

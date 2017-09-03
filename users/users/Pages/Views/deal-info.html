@@ -1,0 +1,154 @@
+﻿<div class="container  pageWrapper" ng-controller="DealInfoCntrl">
+    <rx-shopy-loader is-data-loading="isDataLoading"></rx-shopy-loader>
+    <div class="main-outer-wrapper has-titlebar" ng-hide="isDataLoading">
+        <div class="main-wrapper  row">
+            <div class="row-wrapper">
+                <div class="page-outer-wrapper">
+                    <div class="page-wrapper col-md-12 left-sidebar ">
+                        <div class="col-md-12 ">
+                            <div class="page-title-wrapper">
+                                <h1 class="page-title">{{dealInfo.name}}</h1>
+                            </div>
+                        </div>
+                        <div class="content-wrapper col-md-7 ">
+                            <div class="page-content">
+                                <div class="page-featured-image cpt-thumb-wrapper">
+                                    <div id="slider" >
+                                        <img ng-src="{{VendorsUrl}}/UploadedFiles/{{dealInfo.vendorId}}/{{dealInfo.image}}" data-src-2x="images/s-1.jpg" alt="Slide 1" />
+                                        <a class="iis-previous-nav"></a><a class="iis-next-nav"></a>
+                                    </div>
+                                </div>
+                                <div class="text-content">
+                                    <!--<h4>{{dealInfo.description}}</h4>-->
+                                    <p style="font-size: 12px; line-height: 22px;">
+                                        <!--Relax in total comfort in these well-appointed rooms. Decorated in subtle shades of beige with aqua or peach, our Superior Rooms are elegantly
+                                         furnished in bleached wood. You’ll also find everything you need to do business and then relax. Choice of king or twin beds. Relax in total 
+                                        comfort in these well-appointed rooms. Decorated in subtle shades of beige with aqua or peach, our Superior Rooms are elegantly furnished in
+                                         bleached wood. You’ll also find everything you need to do business and then relax. Choice of king or twin beds.-->
+                                        {{dealInfo.description}}
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="page-content widget_strecentposts">
+                                <h4>Reviews</h4>
+                                <button class="btn btn-default btn-primary blue btn-sm review_btn" ng-click="review()" ng-hide="dealInfo.isReviewed">WRITE A REVIEW&nbsp;&nbsp;<i class="fa fa-comment"></i></button>
+                                <ul>
+                                    <li ng-repeat="review in reviews" ng-class="{ 'event' : (($index + 1) % 2 == 0 ? false : true)  }">
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <uib-rating ng-model="review.rating" max="max" readonly="true" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"></uib-rating>
+                                                <br />
+                                                <span style="font-size: 12px">{{review.name}}</span>
+                                            </div>
+                                            <div class="col-md-10">
+                                                <b>{{review.title}}</b><br />
+                                                {{review.review}}
+                                            </div>
+                                        </div>
+                                    </li>                                    
+                                    <li ng-if="reviews.length == 0">
+                                        <b>No reviews.</b>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row pull-right" ng-show="totalItems > limit">
+                                <div class="col-md-12">
+                                    <uib-pagination
+                                        ng-model="currentPage"
+                                        total-items="totalItems"
+                                        ng-change="pageChanged()"
+                                        class="pagination-sm"
+                                        max-size="3"
+                                        items-per-page="limit">
+                                    </uib-pagination>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-sidebar-wrapper col-md-5">
+                            <div class="right-sidebar sidebar">
+                                <aside id="sidebar" class=" " style="height: ;">
+                                    <div id="buyPanel" class="fixed" style="left: 841.5px;">
+                                        <div class="content clearfix" style="overflow-y: visible; background-color: #F00;">
+                                            <p class="price hideMobile"><span>FROM</span> <span>{{dealInfo.startsOn | DateFilter: 'MM/dd/yyyy' }}</span></p>
+                                            <form class="buynow-orderform-id" method="get" action="/order" novalidate>
+                                                <a class="button xlarge buynow" ng-click="buyNow()">buy now <span class="arr"></span></a>
+                                            </form>
+                                            <div class="filler"></div>
+                                        </div>
+                                    </div>
+                                    <div id="dealAttributes" style="display: block;">
+                                        <div id="valueInfo">
+                                            <div class="value">
+                                                <p class="value"><span>Price</span>{{dealInfo.sellingPrice | currency :'&#8377; ' : 0}}</p>
+                                                <p class="text">Value</p>
+                                            </div>
+                                            <div class="discount">
+                                                <p class="value"><span>UP TO</span>{{dealInfo.discount}}% </p>
+                                                <p class="text">Discount</p>
+                                            </div>
+                                            <div class="save">
+                                                <p class="value"><span>UP TO</span>{{dealInfo.unitPrice - dealInfo.sellingPrice | currency :'&#8377; ' : 0}}</p>
+                                                <p class="text">Saving</p>
+                                            </div>
+                                        </div>
+                                        <div id="timeRemaining" class="component timeLeft" data-timeremaining=" 303 : 10 : 46; ">
+                                            <p><span class="timeValue">{{(dealInfo.hoursLeft > 24 ? (dealInfo.hoursLeft/24 | number: 0) : (TimeLeft(dealInfo.hoursLeft))) }}</span> <span class="timeType">{{dealInfo.hoursLeft > 24 ? 'DAYS' : (dealInfo.hoursLeft > 1 ? 'HOURS' : 'MINS')}}</span> left to buy </p>
+                                        </div>
+                                        <div id="tippedInfo" class="component">
+                                            <p><span>{{dealInfo.sold}}</span> Scoopons sold </p>
+                                        </div>
+                                        <div class="component" style="text-align: center;">
+                                            <div class="shareBox">
+                                                <uib-rating ng-model="dealInfo.rating" max="max" readonly="true" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"></uib-rating>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </aside>
+                                <div class="widget-container widget_strecentposts" ng-if="historyVm.length > 0">
+                                    <h3 class="widgettitle">Recent</h3>
+                                    <ul class="st-recent-posts">
+                                        <li class="widget-post-wrapper" ng-repeat="history in historyVm" ng-class="{ 'event' : (($index + 1) % 2 == 0 ? false : true)  }">
+                                            <img ng-src="{{ VendorsUrl + '/UploadedFiles/' + history.vendorId + '/' + history.image }}" height="30" width="30" alt="{{ history.name }}">
+                                            <a ng-href="{{ '#/deal-info/' + history.dealId }}">{{history.name}},&nbsp;{{ history.description }}</a> <span class="recent-date">{{ history.dateCreated | date: 'longDate' }}</span>
+                                            <div class="clear"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="widget-container">
+                                    <h3 class="widgettitle">Twitter feed</h3>
+                                </div>
+                                <div class="widget-container">
+                                    <h3 class="widgettitle">Ads 125x125</h3>
+                                    <div class="thumb-adds">
+                                        <ul>
+                                            <li><a>
+                                                <img width="125" height="125" alt="" src="images/blank.png">
+                                            </a></li>
+                                            <li><a>
+                                                <img width="125" height="125" alt="" src="images/blank.png">
+                                            </a></li>
+                                            <li><a>
+                                                <img width="125" height="125" alt="" src="images/blank.png">
+                                            </a></li>
+                                            <li><a>
+                                                <img width="125" height="125" alt="" src="images/blank.png">
+                                            </a></li>
+                                            <li><a>
+                                                <img width="125" height="125" alt="" src="images/blank.png">
+                                            </a></li>
+                                            <li><a>
+                                                <img width="125" height="125" alt="" src="images/blank.png">
+                                            </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

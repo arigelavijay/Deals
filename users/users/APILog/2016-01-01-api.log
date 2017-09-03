@@ -1,0 +1,1022 @@
+11.25.06.509|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.25.18.848|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/8/1231150534/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":8,"userId":1231150534,"isGuest":true}]}
+
+11.25.19.043|JSON
+Method: GET
+URL: http://localhost/users/api/review/8?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":8,"skip":0,"limit":5}]}
+
+11.25.22.672|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.25.32.263|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/7/1231150534/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":7,"userId":1231150534,"isGuest":true}]}
+
+11.25.32.302|JSON
+Method: GET
+URL: http://localhost/users/api/review/7?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":7,"skip":0,"limit":5}]}
+
+11.25.33.750|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.25.36.450|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/6/1231150534/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":6,"userId":1231150534,"isGuest":true}]}
+
+11.25.36.450|JSON
+Method: GET
+URL: http://localhost/users/api/review/6?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":6,"skip":0,"limit":5}]}
+
+11.25.37.495|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.25.39.222|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/8/1231150534/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":8,"userId":1231150534,"isGuest":true}]}
+
+11.25.39.236|JSON
+Method: GET
+URL: http://localhost/users/api/review/8?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":8,"skip":0,"limit":5}]}
+
+11.25.40.548|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.25.42.365|JSON
+Method: GET
+URL: http://localhost/users/api/review/8?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":8,"skip":0,"limit":5}]}
+
+11.25.42.370|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/8/1231150534/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":8,"userId":1231150534,"isGuest":true}]}
+
+11.25.43.308|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.25.45.673|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/11/1231150534/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":11,"userId":1231150534,"isGuest":true}]}
+
+11.25.45.704|JSON
+Method: GET
+URL: http://localhost/users/api/review/11?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":11,"skip":0,"limit":5}]}
+
+11.25.46.869|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.42.16.827|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/6/1231150534/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":6,"userId":1231150534,"isGuest":true}]}
+
+11.42.16.851|JSON
+Method: GET
+URL: http://localhost/users/api/review/6?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":6,"skip":0,"limit":5}]}
+
+11.43.23.541|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.46.26.430|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.46.27.280|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.03.38.325|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.14.01.217|JSON
+Method: GET
+URL: http://localhost/users/api/review/21?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":21,"skip":0,"limit":5}]}
+
+12.14.01.226|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/21/1231151038/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":21,"userId":1231151038,"isGuest":true}]}
+
+12.14.14.746|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.41.23.808|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.42.50.019|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.46.52.089|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.49.12.550|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.49.32.403|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.52.38.890|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.53.04.486|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.53.34.580|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.54.13.730|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.54.18.881|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.54.49.226|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.55.03.105|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.55.27.775|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.55.37.765|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.55.51.883|JSON
+Method: GET
+URL: http://localhost/users/api/review/21?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":21,"skip":0,"limit":5}]}
+
+12.55.51.896|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/21/1231150534/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":21,"userId":1231150534,"isGuest":true}]}
+
+12.56.09.543|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.56.57.498|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.57.00.711|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.57.04.067|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.03.34.817|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.06.42.350|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.19.24.870|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.21.36.908|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.21.40.955|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.23.46.470|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.23.46.470|JSON
+Method: GET
+URL: http://localhost/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+13.23.46.735|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.23.47.111|JSON
+Method: GET
+URL: http://localhost/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+13.23.52.791|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/21/101160124/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":21,"userId":101160124,"isGuest":true}]}
+
+13.23.52.835|JSON
+Method: GET
+URL: http://localhost/users/api/review/21?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":21,"skip":0,"limit":5}]}
+
+13.23.58.566|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.24.01.889|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/22/101160124/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":22,"userId":101160124,"isGuest":true}]}
+
+13.24.01.906|JSON
+Method: GET
+URL: http://localhost/users/api/review/22?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":22,"skip":0,"limit":5}]}
+
+13.24.05.204|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.24.08.889|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/23/101160124/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":23,"userId":101160124,"isGuest":true}]}
+
+13.24.08.911|JSON
+Method: GET
+URL: http://localhost/users/api/review/23?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":23,"skip":0,"limit":5}]}
+
+13.28.41.529|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.50.12.546|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.50.18.853|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/21/101160124/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":21,"userId":101160124,"isGuest":true}]}
+
+13.50.18.879|JSON
+Method: GET
+URL: http://localhost/users/api/review/21?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":21,"skip":0,"limit":5}]}
+
+13.51.10.724|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/21/101160124/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":21,"userId":101160124,"isGuest":true}]}
+
+13.51.10.724|JSON
+Method: GET
+URL: http://localhost/users/api/review/21?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":21,"skip":0,"limit":5}]}
+
+13.51.15.325|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.51.17.136|JSON
+Method: GET
+URL: http://localhost/users/api/review/8?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":8,"skip":0,"limit":5}]}
+
+13.51.17.136|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/8/101160124/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":8,"userId":101160124,"isGuest":true}]}
+
+13.51.19.616|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.51.22.014|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/24/101160124/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":24,"userId":101160124,"isGuest":true}]}
+
+13.51.22.014|JSON
+Method: GET
+URL: http://localhost/users/api/review/24?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":24,"skip":0,"limit":5}]}
+
+13.51.24.317|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.52.25.067|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.52.37.636|JSON
+Method: POST
+URL: http://localhost/users/api/signin/login/101160124
+Controller : users.Controllers.SigninController
+Action : login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"log":{"userName":"admin","password":"test"},"guest_id":101160124}]}
+
+13.52.37.768|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.55.04.472|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/22/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":22,"userId":1,"isGuest":false}]}
+
+13.55.04.472|JSON
+Method: GET
+URL: http://localhost/users/api/review/22?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":22,"skip":0,"limit":5}]}
+
+13.55.04.472|JSON
+Method: GET
+URL: http://localhost/users/api/history/1/22
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":22}]}
+
+13.55.10.723|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.55.14.623|JSON
+Method: GET
+URL: http://localhost/users/api/review/21?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":21,"skip":0,"limit":5}]}
+
+13.55.14.623|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/21/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":21,"userId":1,"isGuest":false}]}
+
+13.55.14.623|JSON
+Method: GET
+URL: http://localhost/users/api/history/1/21
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":21}]}
+
+13.55.30.953|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.55.34.211|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/22/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":22,"userId":1,"isGuest":false}]}
+
+13.55.34.211|JSON
+Method: GET
+URL: http://localhost/users/api/history/1/22
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":22}]}
+
+13.55.34.211|JSON
+Method: GET
+URL: http://localhost/users/api/review/22?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":22,"skip":0,"limit":5}]}
+
+13.55.35.646|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.55.37.789|JSON
+Method: GET
+URL: http://localhost/users/api/review/23?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":23,"skip":0,"limit":5}]}
+
+13.55.37.792|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/23/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":23,"userId":1,"isGuest":false}]}
+
+13.55.37.792|JSON
+Method: GET
+URL: http://localhost/users/api/history/1/23
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":23}]}
+
+13.55.39.881|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.55.42.385|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/24/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":24,"userId":1,"isGuest":false}]}
+
+13.55.42.385|JSON
+Method: GET
+URL: http://localhost/users/api/history/1/24
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":24}]}
+
+13.55.42.385|JSON
+Method: GET
+URL: http://localhost/users/api/review/24?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":24,"skip":0,"limit":5}]}
+
+13.56.21.193|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.56.26.279|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/23/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":23,"userId":1,"isGuest":false}]}
+
+13.56.26.279|JSON
+Method: GET
+URL: http://localhost/users/api/review/23?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":23,"skip":0,"limit":5}]}
+
+13.56.26.279|JSON
+Method: GET
+URL: http://localhost/users/api/history/1/23
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":23}]}
+
+13.56.27.711|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.56.30.639|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/24/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":24,"userId":1,"isGuest":false}]}
+
+13.56.30.654|JSON
+Method: GET
+URL: http://localhost/users/api/history/1/24
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":24}]}
+
+13.56.30.663|JSON
+Method: GET
+URL: http://localhost/users/api/review/24?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":24,"skip":0,"limit":5}]}
+
+13.56.32.320|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.56.36.173|JSON
+Method: GET
+URL: http://localhost/users/api/history/1/22
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":22}]}
+
+13.56.36.173|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/22/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":22,"userId":1,"isGuest":false}]}
+
+13.56.36.173|JSON
+Method: GET
+URL: http://localhost/users/api/review/22?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":22,"skip":0,"limit":5}]}
+
+13.56.37.666|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.56.40.312|JSON
+Method: GET
+URL: http://localhost/users/api/history/1/22
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":22}]}
+
+13.56.40.312|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/22/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":22,"userId":1,"isGuest":false}]}
+
+13.56.40.320|JSON
+Method: GET
+URL: http://localhost/users/api/review/22?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":22,"skip":0,"limit":5}]}
+
+13.56.42.935|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.56.45.469|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/23/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":23,"userId":1,"isGuest":false}]}
+
+13.56.45.469|JSON
+Method: GET
+URL: http://localhost/users/api/review/23?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":23,"skip":0,"limit":5}]}
+
+13.56.45.469|JSON
+Method: GET
+URL: http://localhost/users/api/history/1/23
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":23}]}
+
+13.56.49.112|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+13.56.52.141|JSON
+Method: GET
+URL: http://localhost/users/api/review/24?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":24,"skip":0,"limit":5}]}
+
+13.56.52.144|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/24/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":24,"userId":1,"isGuest":false}]}
+
+13.56.52.144|JSON
+Method: GET
+URL: http://localhost/users/api/history/1/24
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":24}]}
+
+14.00.45.455|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.00.53.336|JSON
+Method: POST
+URL: http://localhost/users/api/signin/login/1231150534
+Controller : users.Controllers.SigninController
+Action : login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"log":{"userName":"admin","password":"test"},"guest_id":1231150534}]}
+
+14.00.53.445|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.02.47.561|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.02.50.159|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.02.52.288|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.03.28.163|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.03.28.163|JSON
+Method: GET
+URL: http://localhost/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+14.03.39.453|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/22/101160203/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":22,"userId":101160203,"isGuest":true}]}
+
+14.03.39.453|JSON
+Method: GET
+URL: http://localhost/users/api/review/22?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":22,"skip":0,"limit":5}]}
+
+14.03.40.865|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.03.43.352|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/24/101160203/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":24,"userId":101160203,"isGuest":true}]}
+
+14.03.43.352|JSON
+Method: GET
+URL: http://localhost/users/api/review/24?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":24,"skip":0,"limit":5}]}
+
+14.03.46.240|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.03.50.112|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/24/101160203/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":24,"userId":101160203,"isGuest":true}]}
+
+14.03.50.112|JSON
+Method: GET
+URL: http://localhost/users/api/review/24?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":24,"skip":0,"limit":5}]}
+
+14.03.52.224|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.03.55.264|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/21/101160203/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":21,"userId":101160203,"isGuest":true}]}
+
+14.03.55.264|JSON
+Method: GET
+URL: http://localhost/users/api/review/21?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":21,"skip":0,"limit":5}]}
+
+14.04.03.079|JSON
+Method: GET
+URL: http://localhost/users/api/dealinfo/21/101160203/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":21,"userId":101160203,"isGuest":true}]}
+
+14.04.03.090|JSON
+Method: GET
+URL: http://localhost/users/api/review/21?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":21,"skip":0,"limit":5}]}
+
+14.05.05.570|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+

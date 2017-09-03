@@ -1,0 +1,36 @@
+﻿<div class="row" ng-controller="loginCntrl">
+    <div class="col-md-3"></div>
+    <div class="col-md-6" style="margin-top:80px;">
+        <div class="panel panel-default">
+            <div class="panel-heading"><b>Login</b></div>
+            <div class="panel-body">
+                <form class="form-horizontal" id="frmSignIn" name="frmSignIn" ng-class="{ 'submitted' : submitted }" ng-submit="signIn(signInVm)" novalidate>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" id="username" placeholder="username" ng-model="signInVm.username" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <input type="password" class="form-control" id="password" placeholder="Password" ng-model="signInVm.password" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <button class="btn btn-default btn-block btn-primary" type="submit" ng-click="submitted = true;"><b>Sign In</b></button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <a href="#/Pages/register" class="btn btn-info btn-block" role="button"><b>Register</b></a>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12" style="color:red;"><b>{{ message }}</b></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+</div>

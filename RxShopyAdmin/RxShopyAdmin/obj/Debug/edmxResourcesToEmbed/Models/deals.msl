@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dealsModelStoreContainer" CdmEntityContainer="dealsEntities">
+    <EntitySetMapping Name="addresses">
+      <EntityTypeMapping TypeName="dealsModel.address">
+        <MappingFragment StoreEntitySet="addresses">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="pincode" ColumnName="pincode" />
+          <ScalarProperty Name="address1" ColumnName="address" />
+          <ScalarProperty Name="landmark" ColumnName="landmark" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="isDefault" ColumnName="isDefault" />
+          <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="authentication_token">
+      <EntityTypeMapping TypeName="dealsModel.authentication_token">
+        <MappingFragment StoreEntitySet="authentication_token">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="token" ColumnName="token" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="expiretime" ColumnName="expiretime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="banners">
+      <EntityTypeMapping TypeName="dealsModel.banner">
+        <MappingFragment StoreEntitySet="banners">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="createdDate" ColumnName="createdDate" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="categories">
+      <EntityTypeMapping TypeName="dealsModel.category">
+        <MappingFragment StoreEntitySet="category">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="categoryconfigs">
+      <EntityTypeMapping TypeName="dealsModel.categoryconfig">
+        <MappingFragment StoreEntitySet="categoryconfig">
+          <ScalarProperty Name="isMore" ColumnName="isMore" />
+          <ScalarProperty Name="displayItems" ColumnName="displayItems" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="categoryId" ColumnName="categoryId" />
+          <ScalarProperty Name="sequence" ColumnName="sequence" />
+          <ScalarProperty Name="dateCreated" ColumnName="dateCreated" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="deals">
+      <EntityTypeMapping TypeName="dealsModel.deal">
+        <MappingFragment StoreEntitySet="deal">
+          <ScalarProperty Name="dealId" ColumnName="dealId" />
+          <ScalarProperty Name="vendorId" ColumnName="vendorId" />
+          <ScalarProperty Name="locationId" ColumnName="locationId" />
+          <ScalarProperty Name="bannerId" ColumnName="bannerId" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="categoryId" ColumnName="categoryId" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="startsOn" ColumnName="startsOn" />
+          <ScalarProperty Name="endsOn" ColumnName="endsOn" />
+          <ScalarProperty Name="count" ColumnName="count" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="sold" ColumnName="sold" />
+          <ScalarProperty Name="unitPrice" ColumnName="unitPrice" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+          <ScalarProperty Name="sellingPrice" ColumnName="sellingPrice" />
+          <ScalarProperty Name="hasShipping" ColumnName="hasShipping" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="guestids">
+      <EntityTypeMapping TypeName="dealsModel.guestid">
+        <MappingFragment StoreEntitySet="guestid">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="guest_id" ColumnName="guest_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="locations">
+      <EntityTypeMapping TypeName="dealsModel.location">
+        <MappingFragment StoreEntitySet="locations">
+          <ScalarProperty Name="parentId" ColumnName="parentId" />
+          <ScalarProperty Name="locationId" ColumnName="locationId" />
+          <ScalarProperty Name="locationName" ColumnName="locationName" />
+          <ScalarProperty Name="createddate" ColumnName="createddate" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="orderitems">
+      <EntityTypeMapping TypeName="dealsModel.orderitem">
+        <MappingFragment StoreEntitySet="orderitems">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="orderId" ColumnName="orderId" />
+          <ScalarProperty Name="dealId" ColumnName="dealId" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="unitPrice" ColumnName="unitPrice" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+          <ScalarProperty Name="sellingPrice" ColumnName="sellingPrice" />
+          <ScalarProperty Name="subTotal" ColumnName="subTotal" />
+          <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="orders">
+      <EntityTypeMapping TypeName="dealsModel.order">
+        <MappingFragment StoreEntitySet="orders">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="orderId" ColumnName="orderId" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="orderStatus" ColumnName="orderStatus" />
+          <ScalarProperty Name="subTotal" ColumnName="subTotal" />
+          <ScalarProperty Name="promoCode" ColumnName="promoCode" />
+          <ScalarProperty Name="promoDiscount" ColumnName="promoDiscount" />
+          <ScalarProperty Name="grandTotal" ColumnName="grandTotal" />
+          <ScalarProperty Name="shippingId" ColumnName="shippingId" />
+          <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="promocodes">
+      <EntityTypeMapping TypeName="dealsModel.promocode">
+        <MappingFragment StoreEntitySet="promocodes">
+          <ScalarProperty Name="promoId" ColumnName="promoId" />
+          <ScalarProperty Name="promoCode1" ColumnName="promoCode" />
+          <ScalarProperty Name="promoValue" ColumnName="promoValue" />
+          <ScalarProperty Name="categoryId" ColumnName="categoryId" />
+          <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+          <ScalarProperty Name="expiresOn" ColumnName="expiresOn" />
+          <ScalarProperty Name="isPercentage" ColumnName="isPercentage" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="shippingaddresses">
+      <EntityTypeMapping TypeName="dealsModel.shippingaddress">
+        <MappingFragment StoreEntitySet="shippingaddress">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="pincode" ColumnName="pincode" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="landmark" ColumnName="landmark" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="states">
+      <EntityTypeMapping TypeName="dealsModel.state">
+        <MappingFragment StoreEntitySet="states">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+          <ScalarProperty Name="isactive" ColumnName="isactive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usercarts">
+      <EntityTypeMapping TypeName="dealsModel.usercart">
+        <MappingFragment StoreEntitySet="usercarts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="locationId" ColumnName="locationId" />
+          <ScalarProperty Name="bannerId" ColumnName="bannerId" />
+          <ScalarProperty Name="vendorId" ColumnName="vendorId" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="dateCreated" ColumnName="dateCreated" />
+          <ScalarProperty Name="dateModified" ColumnName="dateModified" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="dealId" ColumnName="dealId" />
+          <ScalarProperty Name="isguest" ColumnName="isguest" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="userhistories">
+      <EntityTypeMapping TypeName="dealsModel.userhistory">
+        <MappingFragment StoreEntitySet="userhistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="dealId" ColumnName="dealId" />
+          <ScalarProperty Name="dateCreated" ColumnName="dateCreated" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="userratings">
+      <EntityTypeMapping TypeName="dealsModel.userrating">
+        <MappingFragment StoreEntitySet="userrating">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="dealId" ColumnName="dealId" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="dateCreated" ColumnName="dateCreated" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="userreviews">
+      <EntityTypeMapping TypeName="dealsModel.userreview">
+        <MappingFragment StoreEntitySet="userreviews">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="dealId" ColumnName="dealId" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="review" ColumnName="review" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="dateCreated" ColumnName="dateCreated" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="dealsModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vendors">
+      <EntityTypeMapping TypeName="dealsModel.vendor">
+        <MappingFragment StoreEntitySet="vendors">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="vendorname" ColumnName="vendorname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="createddate" ColumnName="createddate" />
+          <ScalarProperty Name="isactive" ColumnName="isactive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

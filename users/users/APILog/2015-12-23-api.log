@@ -1,0 +1,14 @@
+16.09.30.899|JSON
+Method: GET
+URL: http://localhost/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+16.09.30.899|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+

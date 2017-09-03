@@ -1,0 +1,74 @@
+﻿@model List<RxShopyAdmin.Controllers.CategoryConfigResult>
+
+@{
+    ViewBag.Title = "Index";
+}
+@section TopSection
+{
+    <link href="~/Css/style.css" rel="stylesheet" />
+    <link href="~/Css/devheart-examples.css" rel="stylesheet" />
+    <style type="text/css">
+        .alert {
+            margin-bottom: 6px;
+            border: 0px solid;
+        }
+    </style>
+}
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h4 class="page-header">Customize Categories Display Sequence</h4>
+        </div>
+    </div>
+
+    @using (Html.BeginForm("update", "Category", FormMethod.Post, new { @id = "frm" }))
+    {
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="sortable-list">
+                    @for (var i = 0; i < Model.Count; i++)
+                    {
+                        <li data-id="@Model[i].id" data-sequence="@Model[i].sequence" data-name="@Model[i].name">
+                            <div class="alert alert-success" role="alert"><b>@Model[i].name</b></div>                            
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                @Html.Hidden("config")
+                <button type="submit" class="btn btn-default btn-primary" onclick="btnSubmit();">Save Changes</button>&nbsp;<b>@((string)TempData["Msg"])</b>
+            </div>
+        </div>
+    }
+
+</div>
+
+@section BottomSection
+{
+    <script src="~/Scripts/jquery-ui.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.sortable-list').sortable();
+        });
+
+        function btnSubmit() {
+            var obj = $('.sortable-list li');
+            var dataArr = new Array();
+
+            var totalItems = obj.length;
+            $.each(obj, function (i, item) {
+                var jObj = {};
+                jObj.id = item.dataset.id;
+                jObj.name = item.dataset.name;
+                jObj.sequence = totalItems - i;
+
+                dataArr.push(jObj);                
+            });
+            
+            var temp = JSON.stringify(dataArr);
+            $('#config').val(JSON.stringify(dataArr));
+        }
+    </script>
+}

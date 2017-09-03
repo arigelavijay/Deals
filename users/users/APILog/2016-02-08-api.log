@@ -1,0 +1,28 @@
+15.13.54.872|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+15.13.54.872|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+15.13.58.918|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/search/7/as
+Controller : users.Controllers.SearchController
+Action : search
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"text":"as","locationId":7}]}
+
+15.14.23.196|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/search/7/es
+Controller : users.Controllers.SearchController
+Action : search
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"text":"es","locationId":7}]}
+

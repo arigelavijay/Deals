@@ -1,0 +1,24 @@
+﻿<div class="deal row">
+    <input value="#" style="display: none" name="absoluteLink">
+    <input value="false" style="display: none" name="fbLikeFetched">
+    <div class="images">
+        <a href="#">
+            <img alt="Entry to the Melbourne BeerFest" ng-src="{{VendorsUrl}}/UploadedFiles/{{r.vendorId}}/{{r.image}}">
+        </a>
+        <div class="thumb-control-wrapper">
+            <ul class="thumb-control clearfix">
+                <li><a class="go-detail" href="#/deal-info/{{r.dealId}}" title="View Detail">Open Detail</a> </li>
+                <li><a class="go-gallery" href="#/deal-info/{{r.dealId}}" title="Gallery" rel="prettyPhoto">Open Gallery</a> </li>
+            </ul>
+        </div>
+    </div>
+   
+    <a class="product-name"><span class="grid-name">{{r.name}}</span> </a>
+    <div class="dealFooter">
+        <div class="col-sm-4">
+            <div class="content-deal-rating">
+         <uib-rating ng-model="r.avgRating" max="5" readonly="true" titles="['one','two','three']" aria-labelledby="default-rating"></uib-rating>
+       </div></div><div class="col-sm-8"> <span class="price product-price product-price-new" itemprop="price">{{r.sellingPrice | currency:'&#8377; ' : 0}} </span><span class="old-price product-price">{{r.unitPrice | currency:'&#8377; ' : 0}}</span><span class="price-percent-reduction">{{r.discount}}&nbsp;%</span>
+           </div>
+    </div>
+</div>

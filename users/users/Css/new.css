@@ -1,0 +1,509 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+header #userLocation {
+    bottom: 0;
+    float: left;
+    height: 27px;
+    left: 202px;
+    padding: 15px 0 0;
+    position: absolute;
+    width: 400px;
+}
+header #userLocation p#locationIcon {
+    left: -68px;
+    padding: 0 0 0 13px;
+    position: absolute;
+    top: -33px !important;
+}
+p#locationIcon img{
+	height:21px;
+	width:14px;
+}
+header #userLocation input#locationName {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    color: #ed1c24;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    height: 28px;
+    left: -34px;
+    position: absolute;
+    top: -39px;
+    width: 280px;
+}
+/*footer*/
+
+.footer {
+    background: #202020 none repeat scroll 0 0;
+	margin: 0 auto;
+  
+}
+.footer-copyright {
+    padding-top: 50px;
+	border:0px !important;
+}
+.footer-copyright .copy-left {
+    font-size: 12px;
+    text-transform: uppercase;
+	 color: #848484;
+	padding: 0 0 60px 180px;
+}
+.footer-copyright .copy-left a{
+	color:#FFF;
+}
+.footer-copyright .copy-left a:hover{
+	text-decoration:none;
+} 
+.btn:hover{
+	color:#FFF;
+}
+.btn-launch,.btn-launch:hover, .btn-launch:active, .btn-launch:focus{
+	background-color: #2ecc71;
+    border: medium none #2ecc71;
+    box-shadow: 0 3px 0 #d35400, 0 5px 2px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 40px;
+    margin-top:10%;
+}
+.bt-login,.bt-login:hover, .bt-login:active, .bt-login:focus {
+    background-color: #0D5587;
+    color:#FFF !important;
+    transition: background-color 300ms linear 0s;
+}
+
+.login-tab {
+	margin: 0 auto;
+	max-width: 380px;
+}
+.login-modal-header {
+	background: #65AAF0;
+	color: #fff;
+}
+.login-modal-header .modal-title {
+	color: #fff;
+}
+.login-modal-header .close {
+	color: #fff;
+}
+.login-modal i {
+	color: #000;
+}
+.login-modal form {
+	max-width: 340px;
+}
+.tab-pane form {
+	margin: 0 auto;
+}
+.login-modal-footer{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.span {
+    background: #3b5998 none repeat scroll 0 0;
+    display: block;
+    transition: all 0.5s ease-out 0s;
+    width: 30%;
+	
+	margin: 25px auto 0px !important;
+}
+.span img {
+    background: #354f88 none repeat scroll 0 0;
+    float: left;
+    padding: 7px;
+}
+.span i {
+    color: #fff;
+    float: left;
+    font-size: 1.6em;
+    font-weight: 400;
+    padding: 9px 14px;
+}
+
+.span1 {
+    background: #45b0e3 none repeat scroll 0 0;
+    transition: all 0.5s ease-out 0s;
+    width: 30%;
+	
+}
+.span1 img {
+    background: #40a2d1 none repeat scroll 0 0;
+    float: left;
+    padding: 7px;
+}
+.span1 i {
+    color: #fff;
+    float: left;
+    font-size: 1.6em;
+    font-weight: 400;
+    padding: 9px 20px;
+}
+#signIn .divider {
+    border-top: 1px solid #cfcfcf;
+    color: #666768;
+    display: block;
+    margin: 65px auto 20px;
+    width: 400px;
+}
+#signIn .divider span {
+    background: #f3f3f1 none repeat scroll 0 0;
+    bottom: 8px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    left: 45%;
+    padding: 0 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+/*cart*/
+.main {
+    background-color: #fffffe;
+    margin: 0 auto;
+    padding: 25px 25px 80px;
+    text-align: left;
+    width: 1000px;
+}
+.col1-layout .col-main {
+    float: none;
+    width: auto;
+}
+.col-main {
+    padding: 0 0 1px;
+}
+.cart .page-title {
+    border-bottom: 1px solid #999999;
+    padding-bottom:20px;
+}
+.page-title {
+    color: #333;
+    font-size: 1.25rem;
+    margin: 16px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.title-buttons {
+    text-align: right;
+}
+h1.cart-header-title {
+    font-size: 33px;
+	font-weight:normal;
+}
+.page-title h1, .page-title h2 {
+    color: #333333;
+    font-family: "Primary-Regular";
+    line-height: 26px;
+    margin: 10px 0 0;
+    text-align: left;
+	
+}
+.title-buttons h1, .title-buttons h2, .title-buttons h3, .title-buttons h4, .title-buttons h5, .title-buttons h6 {
+    float: left;
+}
+.cart-header-title {
+    height: 27px;
+    text-transform: uppercase;
+}
+a.continue-shop {
+    color: #000;
+    font-size: 14px;
+    line-height: 33px;
+    padding-right: 15px;
+    text-decoration: none;
+    text-transform: none;
+}
+a:hover.continue-shop{
+	text-decoration:none;
+	color:#000;
+}
+.cart .title-buttons .checkout-types {
+    float: right;
+}
+.cart .title-buttons .checkout-types li {
+    float: left;
+    margin: 0 21px 5px 8px;
+	 list-style-type: none;
+}
+button.button.btn-proceed-checkout {
+    background: #ED1C24 url("../images/slider-button-corner-arrow.png") no-repeat scroll right top;
+}
+button.button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding: 10px 12px 6px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+button.button {
+    border: 0 none;
+    cursor: pointer;
+    margin: 0;
+    overflow: visible;
+    width: auto;
+}
+button.button span span {
+    border: 0 none;
+    padding: 0;
+}
+form {
+    display: inline;
+}
+fieldset {
+    border: 0 none;
+}
+.data-table {
+    width: 100%;
+}
+table {
+    border: 0 none;
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: 100%;
+}
+table#shopping-cart-table thead {
+    color: #999;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.cart-table th {
+    min-width: 100px;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+    vertical-align: top;
+}
+.nobr {
+    white-space: nowrap !important;
+}
+.a-center {
+    text-align: center !important;
+}
+#shopping-cart-table td {
+    padding: 35px 10px 10px;
+}
+.a-right {
+    text-align: right !important;
+}
+.a-right button.button {
+    background: #000 url("../images/slider-button-corner-arrow.png") no-repeat scroll right top;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    padding: 10px 15px 7px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#shopping-cart-table td {
+    padding: 35px 10px 10px;
+}
+
+#shopping-cart-table h2.product-name {
+    font-size: 15px;
+    margin-bottom: -5px;
+    text-transform: uppercase;
+	margin-top: 5px;
+	text-align:left;
+}
+#shopping-cart-table h2.product-name a {
+    color: #333;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+.cart-table .product-name {
+    color: #2f2f2f;
+    font-weight: normal;
+}
+#shopping-cart-table .item-options {
+    color: #666666;
+    line-height: 24px;
+}
+#shopping-cart-table .item-options dt {
+    margin-bottom: 5px;
+	margin-top:3px;
+}
+a {
+    color: #ff0000;
+    text-decoration: underline;
+}
+a:hover{
+	text-decoration:none;
+}
+#shopping-cart-table input.qty {
+    background-color: #eaeaea;
+    border: 0 none;
+    color: #203548;
+    font-size: 14px;
+    font-weight: normal;
+    height: 31px;
+    margin-top: -4px;
+    padding: 0;
+    text-align: center;
+    width: 45px !important;
+}
+.cart .cart-collaterals {
+    padding: 25px 0 0;
+}
+.cart .cart-collaterals .col2-set {
+   
+}
+.col2-set .col-sm-3 {
+    float: left;
+}
+.cart .cart-collaterals .col2-set .col-sm-3 {
+    width: 231px;
+}
+#discount-coupon-form {
+    display: block;
+    position: static;
+}
+
+.cart .discount {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0;
+    padding-bottom: 70px;
+    width: 100%;
+}
+.cart .discount h2 {
+    float: left;
+    font-size: 14px;
+    padding-top: 7px;
+    width: 100%;
+}
+.discount-form {
+    height: 30px;
+}
+.discount-form .input-box {
+    float: left;
+}
+input#coupon_code {
+    background-color: #eeeeee;
+    /*border: medium none;*/
+    float: left;
+    height: 32px;
+    padding: 5px;
+    text-indent: 2%;
+    width: 235px;
+}
+input, select, textarea, button {
+    color: #2f2f2f;
+    font: 12px/15px "DINRegular",Arial,Helvetica,sans-serif;
+    vertical-align: middle;
+}
+
+.discount-form .buttons-set {
+    border-top: medium none;
+    clear: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.buttons-set button.button {
+    background: #000 url("../images/slider-button-corner-arrow.png") no-repeat scroll right top;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding: 10px 12px 6px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.buttons-set button.button {
+    float: right;
+    margin-left: 5px;
+}
+
+
+#discount-giftcard-form .discount {
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+
+
+#giftcard_shoppingcart_apply, dd.giftvoucher li, dt.giftvoucher, dt.giftvoucher_credit, dd.giftvoucher-credit, li.giftvoucher-discount-code strong {
+    clear: both;
+    float: left;
+    width: 100% !important;
+}
+.discount .giftvoucher #giftvoucher {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+}
+#giftvoucher_container dt label {
+    display: initial !important;
+}
+
+.cart .cart-collaterals .totals {
+    float: right;
+    margin: 20px 0px;
+    width: 336px;
+}
+#shopping-cart-totals-table {
+    border-bottom: 1px solid #bbb;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.totals .a-right {
+    color: #000;
+    font-size: 14px;
+    padding: 1px 0;
+    text-align: left !important;
+    text-transform: uppercase;
+}
+.a-right {
+    text-align: right !important;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+    vertical-align: top;
+}
+strong {
+    font-weight: normal;
+}
+.totals .price {
+    color: #000;
+    float: right;
+    font-size: 14px;
+    min-width: 110px;
+    text-align: right;
+}
+button.button.btn-proceed-checkout {
+    background: #ED1C24 url("../images/slider-button-corner-arrow.png") no-repeat scroll right top;
+}
+.totals button.btn-proceed-checkout {
+    font-size: 14px;
+    padding: 15px 117px 13px;
+	margin-bottom: 35px;
+}
+.checkout-types li{
+	list-style-type:none;
+}
+.add-address input[type="checkbox"] {
+margin-top:0px;
+}
+.edit-add-address {
+    border-bottom: 1px solid #e1dddd;
+    padding-bottom:3px;
+    margin-bottom:6px;
+}
+.contact-add-address{ margin-top:6px;padding:3px 0px; border-bottom: 1px solid #e1dddd; border-top: 1px solid #e1dddd;}

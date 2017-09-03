@@ -1,0 +1,20 @@
+﻿<address>
+    <div class="add-address">
+        <div class="edit-add-address">
+            <strong>{{address.name}}</strong>,
+            <span class="pull-right" ng-show="isAction">
+                <a class="btn-md" style="cursor: pointer;" uib-tooltip="Delete" ng-click="deleteAddress(address.id)"><i class="fa fa-trash"></i></a>&nbsp;
+                <a class="btn-md" style="cursor: pointer;" uib-tooltip="Edit" ng-click="editAddress(address.id)"><i class="fa fa-pencil"></i></a>&nbsp;
+                <input type="checkbox" ng-checked="address.isDefault" ng-model="address.isDefault" ng-click="defaultAddress(address.id)" />
+            </span>
+            <br />
+        </div>
+        {{address.address}},<br />
+        {{address.landmark}},<br />
+        {{address.city}} - {{address.pincode}},<br />
+        {{address.state}},<br />
+        <div class="contact-add-address"><strong>{{address.phone}}</strong></div>
+        <br ng-show="showDeliverBtn" />
+        <button class=" btn-proceed-checkout btn-checkout button" ng-show="showDeliverBtn" ng-click="deliverHere(address.id)">Deliver Here</button>
+    </div>
+</address>

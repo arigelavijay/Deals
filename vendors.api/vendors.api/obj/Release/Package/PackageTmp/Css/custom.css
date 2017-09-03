@@ -1,0 +1,12 @@
+.slider-admin-container img{
+width:100%;
+}
+
+.offer-container img {
+    height: auto;
+    margin: 4px;
+    width: 100%;
+}
+.slider-admin-container {
+text-align:center;
+}

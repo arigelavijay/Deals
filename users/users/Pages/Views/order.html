@@ -1,0 +1,136 @@
+﻿<div class="pageWrapper container" ng-controller="OrderCntrl">
+    <rx-shopy-loader is-data-loading="isDataLoading"></rx-shopy-loader>
+    <div class="main-container col1-layout row" ng-hide="isDataLoading">
+        <div class="main corner-round col-sm-12">
+            <div class="cart">                
+                <div class="page-title title-buttons">
+                    <h1 class="cart-header-title">Place order</h1>
+                    <a class="continue-shop" href="#/home">Continue Shopping</a>
+                    <ul class="checkout-types">
+                        <li>
+                            <button class="button btn-proceed-checkout btn-checkout" type="button" ng-click="confirm()">
+                                <span>Confirm</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row placeorder-table">
+                    <div class="col-md-12">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th><b>Item</b></th>
+                                    <th><b>Unit Price</b></th>
+                                    <th><b>Discount</b></th>
+                                    <th><b>Selling Price</b></th>
+                                    <th><b>Quantity</b></th>
+                                    <th><b>Total</b></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="item in CartVm.ItemVm">
+                                    <td>{{item.name}}</td>
+                                    <td>{{item.unitPrice | currency:'&#8377; ' : 0 }}</td>
+                                    <td>{{item.discount}}&nbsp;%</td>
+                                    <td>{{item.sellingPrice | currency:'&#8377; ' : 0}}</td>
+                                    <td>{{item.quantity}}</td>
+                                    <td>{{item.sellingPrice * item.quantity | currency:'&#8377; ' : 0}}</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr> 
+                                    <td colspan="4"></td>    
+                                    <td><b>SubTotal</b></td>                               
+                                    <td>{{CartVm.SubTotal | currency:'&#8377; ' : 0}}</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>                
+                <div class="cart-collaterals">
+                    <div class="col2-set">
+                        <div class="col-sm-4">
+                        </div>
+                        <div class="col-sm-4">                            
+                            <form id="discount-giftcard-form" method="post" action="">
+                                <div class="discount">
+                                    <h3>Gift Card</h3>
+                                    <div class="discount-form">
+                                        <dl id="giftvoucher_container" style="">
+                                            <dt class="giftvoucher">
+                                                <input id="giftvoucher" type="checkbox" value="1" name="giftvoucher">
+                                                <label style="font-weight: bold; color: #666;" for="giftvoucher">
+                                                    Use Gift Card to check out</label>
+                                            </dt>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-sm-4">                            
+                            <form id="frmPromo" name="frmPromo" ng-class="{'submitted':submitted}" ng-submit="applyPromo(promoCode)" novalidate>
+                                <input type="hidden" value="#" name="return_url">
+                                <div class="discount">
+                                    <h2>Promo Code <span style="color:red;"><b>{{PromoMsg}}</b></span></h2>
+                                    <div class="discount-form">
+                                        <label for="coupon_code"></label>                                        
+                                        <div class="input-box"><input id="coupon_code" class="form-control" name="coupon_code" ng-model="promoCode" ng-disabled="makeDisable" required></div>
+                                        <div class="buttons-set ">
+                                            <button class="button red" value="Apply" title="Apply Coupon" type="submit" ng-click="submitted = true;">
+                                                <span>{{btnText}}</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="totals">
+                                <table id="shopping-cart-totals-table">                                    
+                                    <tbody>
+                                        <tr>
+                                            <td class="a-right">Subtotal</td>
+                                            <td class="a-right">
+                                                <span class="price">{{CartVm.SubTotal | currency:'&#8377; ' : 0}}</span>
+                                            </td>
+                                        </tr>
+                                        <tr ng-show="hasPromo">
+                                            <td class="a-right">Promo</td>
+                                            <td class="a-right">
+                                                <span class="price"><b>-</b>&nbsp{{promoAmount | currency:'&#8377; ' : 0}}</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="a-right">Tax</td>
+                                            <td class="a-right">
+                                                <span class="price">{{CartVm.Tax | currency:'&#8377; ' : 0}}</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td class="a-right"><strong>Grand Total</strong></td>
+                                            <td class="a-right">
+                                                <strong><span class="price">&nbsp;{{CartVm.GrandTotal | currency:'&#8377; ' : 0}}</span> </strong>
+                                            </td>
+                                        </tr>
+                                    </tfoot>
+                                </table> 
+                                <b style="color:red;">{{orderMsg}}</b>                               
+                                <ul class="checkout-types">
+                                    <li>
+                                        <button class="button btn-proceed-checkout btn-checkout" title="Checkout" type="button" ng-click="confirm()">
+                                            <span>Confirm</span>
+                                        </button>
+                                    </li>                                    
+                                </ul>                                
+                            </div>                            
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+</div>

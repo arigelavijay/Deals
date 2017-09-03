@@ -1,0 +1,36 @@
+﻿<div class="modal-header">
+    <h4 class="modal-title">WRITE A REVIEW</h4>
+</div>
+<div class="modal-body">
+    <form class="form-horizontal" id="frmReview" name="frmReview" ng-class="{'submitted':submitted}" ng-submit="review(r)" novalidate>
+        <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Title:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="title" name="title" placeholder="Title" ng-model="r.title" required>
+            </div>
+        </div> 
+        <div class="form-group">
+            <label for="pincode" class="col-sm-2 control-label">Review:</label>
+            <div class="col-md-10">
+                <textarea class="form-control" id="review" name="review" placeholder="Your Review" rows="5" ng-model="r.review" ng-maxlength="285" required></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="address" class="col-md-2 control-label ">Rating:</label>
+            <div class="col-md-10 rating">
+                <uib-rating ng-model="r.rating" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating" required></uib-rating>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Name:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name" ng-model="r.name" required>
+            </div>
+        </div>             
+        <div class="form-group">
+            <div class="col-md-4 pull-right ">
+            <button class="btn btn-primary btn-sm green" type="submit" ng-click="submitted = true;"><i class="fa fa-sign-in"></i>&nbsp;Submit</button>
+            <button class="btn btn-warning btn-sm red" type="button" ng-click="cancel()"><i class="fa fa-long-arrow-left"></i>&nbsp;Cancel</button></div>
+        </div>  
+    </form>
+</div>

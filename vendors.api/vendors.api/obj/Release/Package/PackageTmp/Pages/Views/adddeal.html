@@ -1,0 +1,54 @@
+﻿<div ng-controller="dealsCntrl as dcntrl">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row admin-img-container">
+                <div class="col-sm-6 slider-admin-container" data-toggle="modal" data-target=".dealmodalType1" ng-click="addPayedDeal(1, 1, false)">
+                    <img src="images/admin-images/slider.jpg" alt="" />
+                </div>
+                <div class="col-sm-6 offer-container">
+                    <div class="col-sm-6" data-toggle="modal" data-target=".dealmodalType1" ng-click="addPayedDeal(2, 2, false)">
+                        <img src="images/admin-images/offer-img.jpg" alt="" />
+                    </div>
+                    <div class="col-sm-6" data-toggle="modal" data-target=".dealmodalType1" ng-click="addPayedDeal(3, 2, false)">
+                        <img src="images/admin-images/offer-img.jpg" alt="" />
+                    </div>
+                    <div class="col-sm-6" data-toggle="modal" data-target=".dealmodalType1" ng-click="addPayedDeal(4, 2, false)">
+                        <img src="images/admin-images/offer-img.jpg" alt="" />
+                    </div>
+                    <div class="col-sm-6" data-toggle="modal" data-target=".dealmodalType1" ng-click="addPayedDeal(5, 2, false)">
+                        <img src="images/admin-images/offer-img.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <button class="btn btn-primary btn-block" ng-click="addFreeDeal(6, 2, true)" data-toggle="modal" data-target=".dealmodalType1">Add Free Deal</button>
+        </div>
+    </div>
+    <div class="modal fade uploadmodal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">File Upload</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input class="form-control" id="file" type="file" name="file" accept="image/*" onchange="angular.element(this).scope().selectFileforUpload(this.files)" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div ng-include="'pages/modals/adddeal-modal-type1.html'"></div>    
+</div>
+

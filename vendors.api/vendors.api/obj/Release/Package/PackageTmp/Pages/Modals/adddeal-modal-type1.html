@@ -1,0 +1,241 @@
+﻿<div class="modal fade dealmodalType1" id="dealmodalType1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">{{ isEditDeal ? 'Update Deal' : 'Add Deal' }}</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="imgDivId">
+                            <!--  -->
+                            <img ng-src="{{uploadedImgData || '//:0'}}" id="uploadedImg1" class="thumbnail" /><!-- width="{{imgWt}}" height="{{imgHt}}" -->
+                            <div class="docs-preview clearfix" ng-show="isPreview">
+                                <div class="img-preview preview-lg"></div>
+                            </div>
+                            <div style="display: none">
+                                <input type="file" id="tempimg" value="../../images/admin-images/offer-img.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form id="ParentfrmDeal.frmDeal" name="ParentfrmDeal.frmDeal" ng-class="{'submitted' : submitted }" ng-submit="this.SaveDeal(deal)" novalidate>
+                            <div class="row" ng-hide="isEditDeal">
+                                <div class="form-group col-md-12">
+                                    <label for="location">Location:</label>
+                                    <select 
+                                        id="location" 
+                                        name="location" 
+                                        class="form-control" 
+                                        ng-selected="deal.location" 
+                                        ng-options="location.id as location.name for location in deal.locations | orderBy : 'name'" 
+                                        ng-model="deal.location" 
+                                        ng-change="locationChanged()" 
+                                        required>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row" ng-hide="isEditDeal">
+                                <div class="form-group col-md-12">
+                                    <label for="category">Category:</label>
+                                    <select
+                                        id="category"
+                                        name="category"
+                                        class="form-control"
+                                        ng-selected="deal.category"
+                                        ng-options="c.id as c.name for c in deal.categories | orderBy : 'name'"
+                                        ng-model="deal.category"
+                                        ng-disabled="isLocationSel"
+                                        required>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="firstName">Deal Name:</label>
+                                    <input 
+                                        type="text" 
+                                        class="form-control" 
+                                        id="name" 
+                                        name="name" 
+                                        placeholder="Deal Name" 
+                                        ng-model="deal.name" 
+                                        ng-disabled="isLocationSel && !isEditDeal" 
+                                        ng-required="isLocationSel || !isEditDeal" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="firstName">Deal Description:</label>
+                                    <textarea 
+                                        class="form-control" 
+                                        id="description" 
+                                        name="description" 
+                                        placeholder="Deal Description" 
+                                        ng-model="deal.description" 
+                                        rows="6"
+                                        ng-disabled="isLocationSel && !isEditDeal" 
+                                        ng-required="isLocationSel || !isEditDeal">
+                                    </textarea>
+                                </div>
+                            </div>
+                            <div class="row" ng-hide="isEditDeal">
+                                <div class="form-group col-md-12">
+                                    <label for="firstName">Deal Starts On:</label>                                    
+                                    <p class="input-group">
+                                        <input 
+                                            type="text" 
+                                            class="form-control" 
+                                            uib-datepicker-popup="MM/dd/yyyy" 
+                                            ng-model="deal.startsOn" 
+                                            is-open="status.opened1" 
+                                            min-date="minDate" 
+                                            max-date="maxDate" 
+                                            datepicker-options="dateOptions" 
+                                            date-disabled="disabled(date, mode)" 
+                                            ng-required="!isEditDeal" 
+                                            close-text="Close"
+                                            ng-disabled="isLocationSel"
+                                            placeholder="Deal Starts On"
+                                            ng-change="selectStartDate(deal.startsOn, isFreeDeal)"
+                                            ng-click="open($event,'opened1')"
+                                             />
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-default" ng-click="open($event,'opened1')" ng-disabled="isLocationSel"><i class="fa fa-calendar"></i></button>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row" ng-hide="isEditDeal">
+                                <div class="form-group col-md-12">
+                                    <label for="firstName">Deal Ends On:</label>                                    
+                                    <p class="input-group">
+                                        <input 
+                                            type="text" 
+                                            class="form-control" 
+                                            uib-datepicker-popup="MM/dd/yyyy" 
+                                            ng-model="deal.endsOn" 
+                                            is-open="status.opened2" 
+                                            min-date="minDate" 
+                                            max-date="maxDate" 
+                                            datepicker-options="dateOptions" 
+                                            date-disabled="disabled(date, mode)" 
+                                            ng-required="!isEditDeal" 
+                                            close-text="Close"
+                                            ng-disabled="isLocationSel"
+                                            placeholder="Deal Ends On"
+                                            ng-change="selectEndDate(deal.endsOn, isFreeDeal)"
+                                            ng-click="open($event,'opened2')"
+                                             />
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-default" ng-click="open($event,'opened2')" ng-disabled="isLocationSel"><i class="fa fa-calendar"></i></button>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12" ng-hide="isEditDeal">
+                                    <label for="dealsCount">Deals Count:</label>
+                                    <input 
+                                        type="number" 
+                                        id="count" 
+                                        name="count" 
+                                        class="form-control" 
+                                        placeholder="Deals Count" 
+                                        min="1" 
+                                        ng-model="deal.count" 
+                                        ng-disabled="isLocationSel" 
+                                        required />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12" ng-hide="isEditDeal">
+                                    <label for="unitPrice">Unit Price:</label>
+                                    <input type="number" 
+                                        id="unitPrice" 
+                                        name="unitPrice" 
+                                        ng-model="deal.unitPrice" 
+                                        ng-disabled="isLocationSel" 
+                                        class="form-control" 
+                                        min="1"
+                                        placeholder="Unit Price"
+                                        required />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12" ng-hide="isEditDeal">
+                                    <label for="discount">Discount (in percentage):</label>
+                                    <input type="number"
+                                        id="discount"
+                                        name="discount"
+                                        ng-model="deal.discount"
+                                        ng-disabled="isLocationSel"
+                                        class="form-control"
+                                        min="0"
+                                        placeholder="Discount (in percentage)"
+                                        required />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12" ng-hide="isEditDeal">
+                                    <label for="sellingPrice">Selling Price:</label>
+                                    <input type="number"
+                                        id="sellingPrice"
+                                        name="sellingPrice"
+                                        ng-model="deal.sellingPrice"
+                                        ng-disabled="isLocationSel"
+                                        class="form-control"
+                                        placeholder="Selling Price"
+                                        required
+                                        />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12" ng-hide="isEditDeal">
+                                    <label for="hasShipping">Has Shipping:</label>
+                                    <input type="checkbox" 
+                                        id="hasShipping" 
+                                        name="hasShipping" 
+                                        ng-model="deal.hasShipping"
+                                        ng-true-value="true"
+                                        ng-false-value="false" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="dealsCount">Image Upload:</label>
+                                    <input 
+                                        type="file" 
+                                        id="imgfile1" 
+                                        name="imgfile1" 
+                                        class="form-control"
+                                        valid-file 
+                                        ng-model="deal.attachment" 
+                                        ng-disabled="isLocationSel && !isEditDeal" 
+                                        onchange="angular.element(this).scope().fileChanged(this.files)" 
+                                        required />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <button 
+                                        type="submit" 
+                                        class="btn btn-default btn-primary" 
+                                        ng-click="submitted = true;" 
+                                        ng-disabled="isLocationSel  && !isEditDeal">
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                            <input type="hidden" id="dataX" name="dataX" ng-model="deal.dataX" />
+                            <input type="hidden" id="dataY" name="dataY" ng-model="deal.dataY" />
+                            <input type="hidden" id="dataHeight" name="dataHeight" ng-model="deal.dataHeight" />
+                            <input type="hidden" id="dataWidth" name="dataWidth" ng-model="deal.dataWidth" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

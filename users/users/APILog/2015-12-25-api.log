@@ -1,0 +1,163 @@
+10.59.05.904|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+10.59.15.762|JSON
+Method: POST
+URL: http://localhost/users/api/signin/login/1225151058
+Controller : users.Controllers.SigninController
+Action : login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"log":{"userName":"admin","password":"test"},"guest_id":1225151058}]}
+
+10.59.15.851|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+10.59.18.756|JSON
+Method: GET
+URL: http://localhost/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+10.59.24.128|JSON
+Method: GET
+URL: http://localhost/users/api/address/states
+Controller : users.Controllers.AddressController
+Action : states
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+10.59.24.128|JSON
+Method: GET
+URL: http://localhost/users/api/address/1/7
+Controller : users.Controllers.AddressController
+Action : GetAddressById
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"id":7}]}
+
+10.59.33.159|Method: GET
+URL: http://localhost/users/api/address/1/7
+Controller : users.Controllers.AddressController
+Action : GetAddressById
+Action Parameters : {"exception":{"ClassName":"users.ApiDataException","Message":null,"Data":null,"InnerException":null,"HelpURL":null,"StackTraceString":"   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Web.Http.ApiController.<InvokeActionWithExceptionFilters>d__1.MoveNext()","RemoteStackTraceString":null,"RemoteStackIndex":0,"ExceptionMethod":"8\nMoveNext\nSystem.Web.Http, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\nSystem.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__1\nVoid MoveNext()","HResult":-2146233088,"Source":"System.Web.Http","WatsonBuckets":null}}
+Error: Exception of type 'System.Exception' was thrown.
+Error Code: 500
+
+
+11.02.13.806|JSON
+Method: GET
+URL: http://localhost/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+11.02.13.831|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.02.36.683|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.02.47.486|JSON
+Method: POST
+URL: http://localhost/users/api/signin/login/1225151102
+Controller : users.Controllers.SigninController
+Action : login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"log":{"userName":"admin","password":"test"},"guest_id":1225151102}]}
+
+11.02.47.585|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.14.47.769|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.14.47.769|JSON
+Method: GET
+URL: http://localhost/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+11.14.53.259|JSON
+Method: POST
+URL: http://localhost/users/api/signin/login/1225151114
+Controller : users.Controllers.SigninController
+Action : login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"log":{"userName":"admin","password":"test"},"guest_id":1225151114}]}
+
+11.14.53.349|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.14.54.685|JSON
+Method: GET
+URL: http://localhost/users/api/cart/1/false
+Controller : users.Controllers.CartController
+Action : getitems
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"isGuest":false}]}
+
+11.14.56.719|JSON
+Method: GET
+URL: http://localhost/users/api/track/orders/1?currentPage=0&limit=5
+Controller : users.Controllers.TrackController
+Action : orders
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"currentPage":0,"limit":5}]}
+
+11.14.57.631|JSON
+Method: GET
+URL: http://localhost/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+11.14.58.606|JSON
+Method: GET
+URL: http://localhost/users/api/cart/1/false
+Controller : users.Controllers.CartController
+Action : getitems
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"isGuest":false}]}
+
+11.14.59.130|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.07.17.748|JSON
+Method: GET
+URL: http://localhost/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+12.07.17.748|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+

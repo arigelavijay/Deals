@@ -1,0 +1,20 @@
+﻿<div class="homeBanner">
+    <div class="images">
+        <a ng-href="{{ ot.dealId == -1 ? '' : '#/deal-info/' + ot.dealId }}">
+            <img ng-src="{{ ot.vendorId == -1 ? 'Images/' + ot.image : (VendorsUrl + '/UploadedFiles/' + ot.vendorId + '/' + ot.image) }}" alt="" />
+        </a>
+        <div class="deal-dtal" ng-show="ot.vendorId != -1">
+            <div>
+                <h2 class="dealTitle">{{ot.name}}</h2>
+                <div class="deal-Footer ">
+                    <ul class="dealsmall-Attributes">
+                        <li class="deal-timeLeft"><a href="#"><span class="timeValue">{{(ot.hoursLeft > 24 ? (ot.hoursLeft/24 | number: 0) : (TimeLeft(ot.hoursLeft))) }}</span> <span class="timeType">{{ot.hoursLeft > 24 ? 'DAYS LEFT' : (ot.hoursLeft > 1 ? 'HOURS LEFT' : 'MINS LEFT')}}</span>  </a></li>
+                        <li class="deal-discount"><a href="#"><span class="up-to">UP TO </span><span class="up-tp-value-d">{{ot.discount}}&nbsp;% </span><span class="up-tp-off">OFF</span> </a></li>
+                        <li class="deal-price"> <div class="deal-rating">  <uib-rating ng-model="ot.avgRating" max="5" readonly="true" titles="['one','two','three']" aria-labelledby="default-rating"></uib-rating></div><a href="#" class="price"><span class="up-tp-value-d">{{ot.sellingPrice | currency :'&#8377; ' : 0}}</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</div>

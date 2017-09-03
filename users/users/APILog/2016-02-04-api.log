@@ -1,0 +1,1155 @@
+11.20.00.955|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+11.20.00.955|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.20.05.514|JSON
+Method: POST
+URL: http://192.168.0.224/users/api/signin/login/null
+Controller : users.Controllers.SigninController
+Action : login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"log":{"userName":"admin","password":"test"},"guest_id":null}]}
+
+11.20.12.772|JSON
+Method: POST
+URL: http://192.168.0.224/users/api/signin/login/204161120
+Controller : users.Controllers.SigninController
+Action : login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"log":{"userName":"admin","password":"test"},"guest_id":204161120}]}
+
+11.20.12.886|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.20.17.146|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+11.20.18.220|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/states
+Controller : users.Controllers.AddressController
+Action : states
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+11.20.57.062|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+11.21.30.981|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+11.21.31.003|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/location/parents
+Controller : users.Controllers.LocationController
+Action : ParentLocations
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+11.21.50.635|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.22.03.506|JSON
+Method: POST
+URL: http://192.168.0.224/users/api/signin/login/204161121
+Controller : users.Controllers.SigninController
+Action : login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"log":{"userName":"admin","password":"test"},"guest_id":204161121}]}
+
+11.22.03.559|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.22.07.870|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+11.22.09.959|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/states
+Controller : users.Controllers.AddressController
+Action : states
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+11.22.51.952|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+11.22.53.090|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+11.22.53.149|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/undefined
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":null}]}
+
+11.22.53.193|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.23.12.581|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/22/204161122/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":22,"userId":204161122,"isGuest":true}]}
+
+11.23.12.581|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/22?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":22,"skip":0,"limit":5}]}
+
+11.23.16.613|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.23.25.047|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/search/7/asp
+Controller : users.Controllers.SearchController
+Action : search
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"text":"asp","locationId":7}]}
+
+11.23.28.155|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/search/7/as
+Controller : users.Controllers.SearchController
+Action : search
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"text":"as","locationId":7}]}
+
+11.23.31.886|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/search/7/asp
+Controller : users.Controllers.SearchController
+Action : search
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"text":"asp","locationId":7}]}
+
+11.23.34.190|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/search/7/as
+Controller : users.Controllers.SearchController
+Action : search
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"text":"as","locationId":7}]}
+
+11.48.10.835|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+11.48.10.835|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.50.05.503|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.50.25.498|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.50.44.432|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.53.18.292|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.53.23.708|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+11.56.20.301|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.07.16.458|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.07.57.976|JSON
+Method: POST
+URL: http://localhost/users/api/address/add/1
+Controller : users.Controllers.AddressController
+Action : add
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"obj":{"name":"Vijay","pincode":533214,"address":"k.v.palem","landmark":"Near Ramalayam","city":"Ambajipeta","state":2,"phone":"9966586830"},"userId":1}]}
+
+12.08.40.875|JSON
+Method: POST
+URL: http://192.168.0.224/users/api/signin/login/204161148
+Controller : users.Controllers.SigninController
+Action : login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"log":{"userName":"admin","password":"test"},"guest_id":204161148}]}
+
+12.08.41.024|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.08.45.406|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+12.08.55.088|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+12.09.16.588|JSON
+Method: POST
+URL: http://192.168.0.224/users/api/address/defaultaddress/1/10
+Controller : users.Controllers.AddressController
+Action : DefaultAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"id":10}]}
+
+12.09.16.660|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+12.09.19.382|JSON
+Method: POST
+URL: http://192.168.0.224/users/api/address/defaultaddress/1/9
+Controller : users.Controllers.AddressController
+Action : DefaultAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"id":9}]}
+
+12.09.19.457|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+12.09.23.407|JSON
+Method: DELETE
+URL: http://192.168.0.224/users/api/address/delete/1/9
+Controller : users.Controllers.AddressController
+Action : delete
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"id":9}]}
+
+12.09.23.458|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+12.09.27.165|JSON
+Method: POST
+URL: http://192.168.0.224/users/api/address/defaultaddress/1/10
+Controller : users.Controllers.AddressController
+Action : DefaultAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"id":10}]}
+
+12.09.27.216|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+12.09.32.681|JSON
+Method: POST
+URL: http://192.168.0.224/users/api/address/defaultaddress/1/10
+Controller : users.Controllers.AddressController
+Action : DefaultAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"id":10}]}
+
+12.09.32.746|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+12.09.34.177|JSON
+Method: DELETE
+URL: http://192.168.0.224/users/api/address/delete/1/10
+Controller : users.Controllers.AddressController
+Action : delete
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"id":10}]}
+
+12.09.34.265|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+12.11.05.690|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+12.11.18.776|JSON
+Method: POST
+URL: http://localhost/users/api/address/add/1
+Controller : users.Controllers.AddressController
+Action : add
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"obj":{"name":"Vijay","pincode":533214,"address":"k.v.palem","landmark":"Near Ramalayam","city":"Ambajipeta","state":2,"phone":"9966586830"},"userId":1}]}
+
+12.11.29.323|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+12.11.30.964|JSON
+Method: DELETE
+URL: http://192.168.0.224/users/api/address/delete/1/11
+Controller : users.Controllers.AddressController
+Action : delete
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"id":11}]}
+
+12.11.31.047|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+12.11.42.498|JSON
+Method: POST
+URL: http://localhost/users/api/address/add/1
+Controller : users.Controllers.AddressController
+Action : add
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"obj":{"name":"Vijay","pincode":533214,"address":"k.v.palem","landmark":"Near Ramalayam","city":"Ambajipeta","state":2,"phone":"9966586830"},"userId":1}]}
+
+12.11.48.127|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+12.11.49.363|JSON
+Method: DELETE
+URL: http://192.168.0.224/users/api/address/delete/1/12
+Controller : users.Controllers.AddressController
+Action : delete
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"id":12}]}
+
+12.11.49.470|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+12.11.57.196|JSON
+Method: POST
+URL: http://localhost/users/api/address/add/1
+Controller : users.Controllers.AddressController
+Action : add
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"obj":{"name":"Vijay","pincode":533214,"address":"k.v.palem","landmark":"Near Ramalayam","city":"Ambajipeta","state":2,"phone":"9966586830"},"userId":1}]}
+
+12.12.20.416|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+12.14.17.846|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+14.19.30.005|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+14.19.30.005|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.20.26.639|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.21.39.200|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.22.20.630|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.26.47.253|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.27.08.664|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+14.27.21.153|JSON
+Method: GET
+URL: http://localhost/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+15.57.53.963|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+15.58.01.769|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/2/204160219/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":2,"userId":204160219,"isGuest":true}]}
+
+15.58.01.823|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":0,"limit":5}]}
+
+15.59.14.963|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+15.59.21.438|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/2/204160219/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":2,"userId":204160219,"isGuest":true}]}
+
+15.59.21.456|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":0,"limit":5}]}
+
+16.02.07.333|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+16.02.10.739|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/4?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":4,"skip":0,"limit":5}]}
+
+16.02.10.742|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/4/204160219/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":4,"userId":204160219,"isGuest":true}]}
+
+16.02.15.548|JSON
+Method: POST
+URL: http://192.168.0.224/users/api/signin/login/204160219
+Controller : users.Controllers.SigninController
+Action : login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"log":{"userName":"admin","password":"test"},"guest_id":204160219}]}
+
+16.02.15.655|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+16.02.20.176|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":0,"limit":5}]}
+
+16.02.20.179|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/2
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":2}]}
+
+16.02.20.179|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/2/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":2,"userId":1,"isGuest":false}]}
+
+16.02.22.966|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=5&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":5,"limit":5}]}
+
+16.02.24.424|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":0,"limit":5}]}
+
+16.02.29.627|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+16.02.31.833|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/23/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":23,"userId":1,"isGuest":false}]}
+
+16.02.31.833|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/23
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":23}]}
+
+16.02.31.859|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/23?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":23,"skip":0,"limit":5}]}
+
+16.02.34.985|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+16.02.37.645|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/4
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":4}]}
+
+16.02.37.645|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/4?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":4,"skip":0,"limit":5}]}
+
+16.02.37.645|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/4/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":4,"userId":1,"isGuest":false}]}
+
+16.03.34.606|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/4
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":4}]}
+
+16.03.34.606|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/4?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":4,"skip":0,"limit":5}]}
+
+16.03.34.606|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/4/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":4,"userId":1,"isGuest":false}]}
+
+16.03.48.827|JSON
+Method: POST
+URL: http://192.168.0.224/users/api/dealinfo/buy/1/false
+Controller : users.Controllers.DealInfoController
+Action : buy
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"isGuest":false,"dInfo":{"dealId":4,"vendorId":4,"bannerId":4,"locationId":7,"name":null,"description":null,"image":null,"startsOn":"0001-01-01T00:00:00","endsOn":"0001-01-01T00:00:00","leftDays":0,"sold":0,"unitPrice":0.0,"discount":0.0,"sellingPrice":0.0,"hoursLeft":0.0,"rating":0.0,"isRated":false,"isReviewed":false}}]}
+
+16.03.49.085|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/cart/1/false
+Controller : users.Controllers.CartController
+Action : getitems
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"isGuest":false}]}
+
+16.03.50.904|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+16.03.53.981|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/23
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":23}]}
+
+16.03.53.981|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/23?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":23,"skip":0,"limit":5}]}
+
+16.03.53.993|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/23/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":23,"userId":1,"isGuest":false}]}
+
+16.03.55.618|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+16.03.58.931|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/16/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":16,"userId":1,"isGuest":false}]}
+
+16.03.58.938|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/16
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":16}]}
+
+16.03.58.953|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/16?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":16,"skip":0,"limit":5}]}
+
+16.04.01.291|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+16.04.28.096|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/22/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":22,"userId":1,"isGuest":false}]}
+
+16.04.28.108|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/22
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":22}]}
+
+16.04.28.108|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/22?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":22,"skip":0,"limit":5}]}
+
+16.06.11.490|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/22
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":22}]}
+
+16.06.11.490|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/22?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":22,"skip":0,"limit":5}]}
+
+16.06.11.490|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/22/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":22,"userId":1,"isGuest":false}]}
+
+16.06.14.105|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/22
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":22}]}
+
+16.06.14.105|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/22?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":22,"skip":0,"limit":5}]}
+
+16.06.14.105|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/22/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":22,"userId":1,"isGuest":false}]}
+
+16.06.23.201|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/22
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":22}]}
+
+16.06.23.201|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/22?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":22,"skip":0,"limit":5}]}
+
+16.06.23.201|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/22/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":22,"userId":1,"isGuest":false}]}
+
+16.06.25.016|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/22/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":22,"userId":1,"isGuest":false}]}
+
+16.06.25.016|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/22
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":22}]}
+
+16.06.25.016|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/22?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":22,"skip":0,"limit":5}]}
+
+16.06.25.840|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/guestid
+Controller : users.Controllers.HomeController
+Action : guestid
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+16.06.26.052|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/22?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":22,"skip":0,"limit":5}]}
+
+16.06.26.052|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/22/204160406/true
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":22,"userId":204160406,"isGuest":true}]}
+
+16.06.29.289|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+16.06.36.171|JSON
+Method: POST
+URL: http://192.168.0.224/users/api/signin/checkemail
+Controller : users.Controllers.SigninController
+Action : checkemail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"obj":{"email":""}}]}
+
+16.06.40.307|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/signin/checkusername/admin
+Controller : users.Controllers.SigninController
+Action : checkusername
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userName":"admin"}]}
+
+16.06.41.350|JSON
+Method: POST
+URL: http://192.168.0.224/users/api/signin/login/204160406
+Controller : users.Controllers.SigninController
+Action : login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"log":{"userName":"admin","password":"test"},"guest_id":204160406}]}
+
+16.06.41.871|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+16.06.48.948|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/1
+Controller : users.Controllers.AddressController
+Action : address
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1}]}
+
+16.06.50.701|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/address/states
+Controller : users.Controllers.AddressController
+Action : states
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+16.06.54.410|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+16.06.55.431|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/2
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":2}]}
+
+16.06.55.431|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":0,"limit":5}]}
+
+16.06.55.431|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/2/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":2,"userId":1,"isGuest":false}]}
+
+16.06.59.092|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=5&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":5,"limit":5}]}
+
+16.07.00.820|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":0,"limit":5}]}
+
+16.07.02.636|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=5&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":5,"limit":5}]}
+
+16.07.03.526|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":0,"limit":5}]}
+
+16.07.05.202|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=5&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":5,"limit":5}]}
+
+16.07.06.404|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":0,"limit":5}]}
+
+16.14.14.271|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+16.14.20.399|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/2/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":2,"userId":1,"isGuest":false}]}
+
+16.14.20.481|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":0,"limit":5}]}
+
+16.14.20.481|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/2
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":2}]}
+
+16.14.23.086|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=5&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":5,"limit":5}]}
+
+16.14.24.695|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":0,"limit":5}]}
+
+16.14.26.514|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=5&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":5,"limit":5}]}
+
+16.14.28.254|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":0,"limit":5}]}
+
+16.14.29.325|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=5&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":5,"limit":5}]}
+
+16.16.09.118|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":0,"limit":5}]}
+
+16.16.11.036|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/2?skip=5&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":2,"skip":5,"limit":5}]}
+
+16.16.12.946|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/home/deals/7
+Controller : users.Controllers.HomeController
+Action : GetDeals
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"locationId":7}]}
+
+16.16.15.255|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/4?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":4,"skip":0,"limit":5}]}
+
+16.16.15.255|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/4/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":4,"userId":1,"isGuest":false}]}
+
+16.16.15.255|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/4
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":4}]}
+
+16.20.35.036|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/history/1/4
+Controller : users.Controllers.HistoryController
+Action : history
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"userId":1,"dealId":4}]}
+
+16.20.35.041|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/dealinfo/4/1/false
+Controller : users.Controllers.DealInfoController
+Action : Info
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":4,"userId":1,"isGuest":false}]}
+
+16.20.35.041|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/4?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":4,"skip":0,"limit":5}]}
+
+16.21.02.040|JSON
+Method: POST
+URL: http://192.168.0.224/users/api/review/insert
+Controller : users.Controllers.ReviewController
+Action : Insert
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"review":{"userId":1,"dealId":4,"title":"My Title","review":"My Review","rating":5,"name":"Vijaya Babu Arigela"}}]}
+
+16.21.02.228|JSON
+Method: GET
+URL: http://192.168.0.224/users/api/review/4?skip=0&limit=5
+Controller : users.Controllers.ReviewController
+Action : reivews
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"dealId":4,"skip":0,"limit":5}]}
+

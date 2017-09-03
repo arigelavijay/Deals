@@ -1,0 +1,108 @@
+﻿<div class="pageWrapper container" ng-controller="OrderInfoCntrl">
+    <rx-shopy-loader is-data-loading="isDataLoading"></rx-shopy-loader>
+    <div class="main-container col1-layout row" ng-hide="isDataLoading">
+        <div class="main corner-round col-sm-12">
+            <div class="col-main">
+                <div class="order">
+                    <div class="page-title title-buttons">
+                        <h1 class="cart-header-title">Orders details</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                        <ol class="breadcrumb">
+                            <li><a href="#/home">Home</a></li>
+                            <li><a href="#/track">Track Orders</a></li>
+                            <li class="active">Order Details</li>
+                        </ol></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="panel panel-default order-status">
+                                <div class="panel-body">
+                                    <div class="col-sm-4">
+                                        <dl class="dl-horizontal">
+                                            <dt>Order ID:</dt>
+                                            <dd><span>{{OrderInfo.orderId}}</span></dd>
+                                            <dt>Seller:</dt>
+                                            <dd>Prasid </dd>
+                                            <dt>Order Date:</dt>
+                                            <dd>{{OrderInfo.createdOn | date : 'longDate'}}</dd>
+                                            <dt>Amount Paid:</dt>
+                                            <dd><span aria-hidden="true" class="glyphicon glyphicon-ok"></span>&nbsp;<span>{{OrderInfo.grandTotal | currency:'&#8377; ':0}}</span><small>&nbsp;through Credit card</small></dd>
+                                            <dt>Order Status:</dt>
+                                            <dd ng-switch on="OrderInfo.orderStatus">
+                                                <span ng-switch-when="Pending" class="label label-danger">Pending</span>
+                                                <span ng-switch-when="Order Packed" class="label label-warning">Order Packed</span>
+                                                <span ng-switch-when="Ready To Shipment" class="label label-info">Ready To Shipment</span>
+                                                <span ng-switch-when="Shipped To Delivery Center" class="label label-success">Shipped To Delivery Center</span>
+                                                <span ng-switch-when="Not Applicable" class="label label-default">Not Applicable</span>
+                                                <span ng-switch-default></span>
+                                            </dd>
+                                            <dt ng-show="isPromoUsed">Promo Code:</dt>
+                                            <dd ng-show="isPromoUsed">{{OrderInfo.promoCode}}</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="order-add bs-callout bs-callout-info">                                            
+                                            <user-address data="address" action="false"></user-address>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default pdt-total_amt">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-sm-8">PRODUCT DETAILS</div>
+                                        <!--<div class="col-sm-4">Delivery</div>-->
+                                        <div class="col-sm-4">SUB TOTAL</div>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="col-sm-8">
+                                        <div class="row" ng-repeat="item in OrderInfo.ItemVm">
+                                            <div class="col-sm-4">
+                                                <a ng-href="#/deal-info/{{item.dealId}}" title="{{item.name}}" class="product-image thumbnail">
+                                                    <img width="75" height="75" ng-src="{{VendorsUrl}}/UploadedFiles/{{item.vendorId}}/{{item.image}}" alt="{{item.name}}">
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <h2 class="product-name"><a ng-href="#/deal-info/{{item.dealId}}">{{item.name}}</a> </h2>
+                                                <h6>&nbsp; &nbsp;Qty : {{ item.quantity }}</h6>
+                                            </div>
+                                            <div class="col-sm-5">
+                                                <h2 class="product-name">Generated on  <span>{{OrderInfo.createdOn | date: 'longDate'}}</span></h2>
+                                            </div>
+                                        </div>
+                                    </div>                                    
+
+                                    <!--<div class="col-sm-4" style="text-align: center;">
+                                        <h2 class="product-name btn-success">Delivery on Thu, 19th Nov  </h2>
+                                        <button class="btn btn-default btn-xs" style="margin-top: 10px;">Re-order</button>
+                                    </div>-->
+                                    <div class="col-sm-4 a-right">
+                                        <dl class="dl-horizontal">
+                                            <dt>Subtotal :</dt>
+                                            <dd>{{OrderInfo.subTotal | currency:'&#8377; ': 0}}</dd>
+                                            <dt>Tax:</dt>
+                                            <dd>{{1450 | currency:'&#8377; ': 0}}</dd>
+                                            <div class="clearfix"></div>
+                                            <dt ng-show="isPromoUsed">Promo Discount:</dt>
+                                            <dd ng-show="isPromoUsed"><b>-</b>&nbsp;{{OrderInfo.promoDiscount | currency:'&#8377; ': 0}}</dd>
+                                            <hr />
+                                            <div class="clearfix"></div>
+                                            <dt>Grandtotal :</dt>
+                                            <dd>{{OrderInfo.grandTotal | currency:'&#8377; ': 0}}</dd>                                            
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>

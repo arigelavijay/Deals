@@ -1,0 +1,53 @@
+﻿<div class="row">
+    <div class="col-md-12">
+        <form id="sign.frmRegister" name="sign.frmRegister" ng-class="{'submitted':submitted}" ng-submit="register(reg)" novalidate>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                    <input type="text" class="form-control" id="firstname" placeholder="FirstName" ng-model="reg.firstName" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                    <input type="text" class="form-control" id="lastname" placeholder="LastName" ng-model="reg.lastName" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-at"></i></div>
+                    <input type="email" class="form-control" id="remail" placeholder="Email" ng-model="reg.email" ng-uniqueemail required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                    <input type="text" class="form-control" id="username" placeholder="Username" ng-model="reg.userName" ng-unique required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
+                    <input type="password" class="form-control" id="password1" placeholder="Password" ng-model="reg.password" required>
+                </div>
+            </div>
+            <button type="submit" id="register_btn" class="btn btn-block bt-login" data-loading-text="Registering...." ng-click="submitted = true;"><i class="fa fa-user-plus"></i>&nbsp;Register</button>
+            <div class="form-group pull-left">
+                <div class="col-md-12" style="color: red;"><b>{{ errMsg2 }}</b></div>
+            </div>
+            <div class="clear"></div>
+            <div class="login-modal-footer">
+                <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-md-8">
+                        <i class="fa fa-lock"></i>
+                        <a href="javascript:;" class="forgetpass-tab" ng-click="tabs[2].active = true">Forgot password? </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4">
+                        <i class="fa fa-check"></i>
+                        <a href="javascript:;" class="signin-tab" ng-click="tabs[0].active = true">Sign In </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,105 @@
+﻿<div class="container" ng-controller="HeaderCntrl">
+    <script type="text/ng-template" id="customTemplate.html">
+      <a ng-href="{{ '#/deal-info/' + match.model.dealId }}">
+        <img  ng-src="{{match.model.imageUrl}}" height="25" width="25" />
+        <i>{{match.model.name}}</i>
+       <span class="search-price"><span class="search-realprice">Price: {{match.model.unitPrice | currency :'&#8377; ' : 0}}  </span> <span class="search-offprice"> Offer Price:  {{match.model.sellingPrice | currency :'&#8377; ' : 0}}</span>    </span>   
+       <span class="clear-fix"></span>
+      </a>
+    </script>
+    <div class="row" ng-show="data.case == 0">
+        <div class="col-sm-3">
+            <a id="siteLogo" href="#/home" ng-click="hide(false)">Scoopon - Australia's Number 1 Daily Deals Website</a>
+        </div>
+        <div class="col-sm-9">
+            <div class="col-sm-12">
+                <nav ng-hide="doHide">
+                    <ul id="accountStatus">
+                        <li class="navMyscoopons"><a class="myScoopons" href="#/home">My Scoopons</a> </li>
+                        <li><a class="cart" href="#/cart">My Cart </a></li>
+                        <li class="help"><a href="#/contact">Contact Us</a> </li>
+                        <li ng-hide="isLoggedIn"><a class="signIn" href="#/sign-up" rel="nofollow" ng-click="hide(true)">Sign in</a> </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-6">
+                <ul id="social">
+                    <li id="emailSubscribe">
+                        <input
+                            type="text"
+                            ng-model="selecteddeal"
+                            placeholder="Search deals"
+                            typeahead-template-url="customTemplate.html"
+                            typeahead-min-length="1"
+                            uib-typeahead="d as d.name for d in results($viewValue)"
+                            typeahead-loading="loadingDeals"
+                            typeahead-wait-ms="1000" />
+                        <button type="button" class="search_menu"><span class="glyphicon glyphicon-arrow-down"></span></button>
+                        <i ng-show="loadingDeals" class="fa fa-cog fa-spin menu-loader"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <div class="after-login">
+                    <ul ng-hide="doHide">
+                        <li><a ng-click="MakeChanged()" style="cursor:pointer;"><i class="fa fa-location-arrow"></i>{{data.locationname}}</a></li>
+                        <li>
+                            <div class="account-dtl">
+                                <p>Welcome <span>Guest&nbsp;!</span></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- split -->
+    <div class="row login" ng-show="data.case == 1">
+        <div class="col-sm-3">
+            <a id="siteLogo" href="#/home">Scoopon - Australia's Number 1 Daily Deals Website new</a>
+        </div>
+        <div class="col-sm-9">
+            <div class="col-sm-12">
+                <nav>
+                    <ul id="accountStatus">
+                        <li class="navMyscoopons"><a class="myScoopons" href="#/home">My Scoopons</a> </li>
+                        <li><a class="cart" href="#/cart">My Cart </a></li>
+                        <li><a href="#/track">Track Order</a></li>
+                        <li><a href="#/address">Address</a></li>
+                        <li><a href="#/contact">Contact Us</a></li>
+                        <li><a style="cursor: pointer;" ng-click="logOut()">Log Out</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-6">
+                <ul id="social">
+                    <li id="emailSubscribe">
+                        <input
+                            type="text"
+                            ng-model="selecteddeal"
+                            placeholder="Search deals"
+                            typeahead-template-url="customTemplate.html"
+                            typeahead-min-length="1"
+                            uib-typeahead="d as d.name for d in results($viewValue)"
+                            typeahead-loading="loadingDeals"
+                            typeahead-wait-ms="1000" />
+                        <button type="button" class="search_menu"><span class="glyphicon glyphicon-arrow-down"></span></button>
+                        <i ng-show="loadingDeals" class="fa fa-cog fa-spin menu-loader"></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <div class="after-login">
+                    <ul>
+                        <li><a ng-click="MakeChanged()" style="cursor:pointer;"><i class="fa fa-location-arrow"></i>{{data.locationname}}</a></li>
+                        <li>
+                            <div class="account-dtl">
+                                <p>Welcome <span>{{userName}}&nbsp;!</span></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

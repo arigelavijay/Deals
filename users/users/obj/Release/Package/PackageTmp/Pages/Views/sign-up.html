@@ -1,0 +1,36 @@
+﻿<div class="pageWrapper container" ng-controller="SigninCntrl as sign">
+    <section id="signIn" class="container full signIn">
+        <form method="post" action="/external-signin" novalidate>
+            <div class="span">
+                <a>
+                    <img alt="" src="images/facebook.png">
+                    <i>Sign In with Facebook</i>
+                    <div class="clear"></div>
+                </a>
+            </div>
+            <div class="span1 span">
+                <a>
+                    <img alt="" src="images/twitter.png">
+                    <i>Sign In with Twitter</i>
+                    <div class="clear"></div>
+                </a>
+            </div>
+        </form>
+        <div class="divider">
+            <span>or</span>
+        </div>
+        <div id="signInForm" class="loginForm" style="display: block;">            
+            <div class="modal-body">
+                <div class="text-center">
+                    <div class="login-tab" role="tabpanel">
+                        <uib-tabset>
+                            <uib-tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active" disable="tab.disabled">
+                                <div ng-include="tab.content"></div>
+                            </uib-tab>
+                        </uib-tabset>                            
+                    </div>
+                </div>
+            </div>            
+        </div>        
+    </section>
+</div>

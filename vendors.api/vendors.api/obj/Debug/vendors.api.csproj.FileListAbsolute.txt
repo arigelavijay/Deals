@@ -1,0 +1,700 @@
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\10192015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\10192015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\10192015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\10222015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\10222015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\10222015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\10222015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\10232015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\10232015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\10232015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\10232015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\10232015 - 1\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\10242015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\10242015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\10242015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\10262015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\10262015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\10262015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\10262015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\10272015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\10272015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\10272015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\10272015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\10282015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\10282015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\10282015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\10282015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\10282015 - 1\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\10292015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\10292015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\10292015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\10292015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\10302015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\10302015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\10302015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\10302015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\11022015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\11022015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\11022015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\11022015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\11032015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\11032015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\11032015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\11032015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\11042015 - 1\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\11042015 - 2\vendors.api\vendors.api\bin\System.Linq.Dynamic.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Linq.Dynamic.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\11052015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\11052015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\11052015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Linq.Dynamic.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\11072015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\11072015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\11072015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\11072015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Linq.Dynamic.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\11132015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\11132015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\11132015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\11132015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Linq.Dynamic.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\12142015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\12142015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\12142015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\12142015\vendors.api\vendors.api\bin\MySql.Data.Entity.EF6.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\MySql.Data.Entity.EF6.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Linq.Dynamic.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\12222015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\12222015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\12222015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\12222015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\vendors.api.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\vendors.api.pdb
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\Antlr3.Runtime.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\EntityFramework.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\MySql.Data.Entity.EF6.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\Newtonsoft.Json.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Linq.Dynamic.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.Helpers.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.Http.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.Mvc.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.Optimization.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.Razor.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.WebPages.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\WebGrease.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\Antlr3.Runtime.pdb
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\EntityFramework.xml
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.Helpers.xml
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.Mvc.xml
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.Optimization.xml
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.Razor.xml
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.WebPages.xml
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.WebPages.Deployment.xml
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.WebPages.Razor.xml
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\Newtonsoft.Json.xml
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Net.Http.Formatting.xml
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.Http.xml
+E:\deals\vendors\12292015\vendors.api\vendors.api\bin\System.Web.Http.WebHost.xml
+E:\deals\vendors\12292015\vendors.api\vendors.api\obj\Debug\vendors.api.csprojResolveAssemblyReference.cache
+E:\deals\vendors\12292015\vendors.api\vendors.api\obj\Debug\vendors.api.dll
+E:\deals\vendors\12292015\vendors.api\vendors.api\obj\Debug\vendors.api.pdb

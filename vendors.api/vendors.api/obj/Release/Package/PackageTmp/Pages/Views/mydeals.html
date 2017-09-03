@@ -1,0 +1,25 @@
+﻿<div ng-controller="dashBoardCntrl">    
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-condensed table-bordered" ng-table="tblParam">
+                <tr ng-repeat="deal in $data">
+                    <!--<td data-title="'#'">{{ $index + 1 }}</td>-->
+                    <td data-title="'Name'" sortable="'name'">{{deal.name}}</td>
+                    <td data-title="'Category'" sortable="'categoryName'">{{deal.categoryName}}</td>
+                    <td data-title="'Location'" sortable="'locationName'">{{deal.locationName}}</td>
+                    <td data-title="'Starts On'" sortable="'startsOn'">{{deal.startsOn | DateFilter: 'MM/dd/yyyy'}}</td>
+                    <td data-title="'Ends On'" sortable="'endsOn'">{{deal.endsOn | DateFilter: 'MM/dd/yyyy'}}</td>
+                    <td data-title="'Count'" sortable="'count'">{{deal.count}}</td>
+                    <td data-title="'Image'"><img ng-src="UploadedFiles/{{vendorId}}/{{deal.fileName}}" alt="" width="80" /></td>
+                    <td data-title="'Action'">
+                        <button class="btn  btn-info" data-toggle="modal" data-target=".dealmodalType1" ng-click="imgSize(deal.id, deal.bannerId, deal.bannerId > 1 ? 2 : 1)"><i class="fa fa-pencil"></i></button>                            
+                        <button class="btn  btn-primary" data-toggle="modal" data-target=".viewDeal" ng-click="viewDeal(deal.id)"><i class="fa fa-info"></i></button>
+                        <button class="btn  btn-danger"><i class="fa fa-trash-o"></i></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div ng-include="'pages/modals/view-deal-modal.html'"></div>
+    <div ng-include="'pages/modals/adddeal-modal-type1.html'" ng-controller="dealsCntrl"></div>
+</div>

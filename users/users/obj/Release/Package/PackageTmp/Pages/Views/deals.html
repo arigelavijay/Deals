@@ -1,0 +1,54 @@
+﻿<div class="pageWrapper container" ng-controller="homeCntrl">
+    <rx-shopy-loader is-data-loading="isDataLoading"></rx-shopy-loader>
+    <section ng-hide="isDataLoading">
+        <div class="row">
+            <div class="col-sm-6">
+                <div id="mainDeal" class="mainDeal">
+                    <div class="dealHeader" ng-show="main.vendorId != -1">
+                        <h1>{{main.name}}</h1>
+                    </div>
+                    <div>
+                        <div class="top-main-slider-container">
+                            <div id="slider" style="position: relative; overflow: hidden; top: 0px; left: 0px; z-index: 0; width: 100%; height: 400px; display: block;">
+                                <img ng-src="{{ (main.vendorId == '-1' || main.vendorId == null) ? ('Images/' + main.image) : (VendorsUrl + '/UploadedFiles/' + main.vendorId + '/' + main.image) }}" alt="" />
+                                <a class="iis-previous-nav"></a><a class="iis-next-nav"></a>
+                            </div>
+                            <div class="trans" ng-show="main.vendorId != -1">
+                                <h2 class="dealTitle">{{main.name}}</h2>
+                                <a id="main-ViewDeal" class="button large" ng-href="{{ main.dealId == -1 ? '' : '#/deal-info/' + main.dealId }}">View Deal</a>
+                               </div>
+                        </div>
+                        <div class="dealFooter" ng-show="main.vendorId != -1">
+                            <ul class="dealAttributes">
+                                <li class="box price"><div class="deal-rating"> <uib-rating  ng-model="main.avgRating" max="5" readonly="true" titles="['one','two','three']" aria-labelledby="default-rating"></uib-rating>
+                           </div><a id="mainPrice" class="price"><span style="text-align: right"></span>{{main.sellingPrice | currency :'&#8377; ' : 0}}</a></li>
+                                <li class="box timeLeft" data-timeremaining=" 17 : 15 : 43; "><a id="mainTime"><span></span><span class="timeValue">{{(main.hoursLeft > 24 ? (main.hoursLeft/24 | number: 0) : (TimeLeft(main.hoursLeft))) }}</span> <span class="timeType">{{main.hoursLeft > 24 ? 'days Left' : (main.hoursLeft > 1 ? 'HOURS LEFT' : 'MINS LEFT')}}</span></a></li>
+                                <li class="box value"><a id="main-Value" style="text-decoration: line-through;"><span>PRICE</span>{{main.unitPrice | currency :'&#8377; ' : 0}}<span>Value</span> </a></li>
+                                <li class="box discount">  <a id="main-Discount"><span>UP TO </span>{{main.discount}}&nbsp;%<span>OFF</span> </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 slider-right-images">
+                <div class="row">
+                    <div class="col-sm-6" ng-repeat="ot in other | orderBy : 'bannerId'">
+                        <other-items data="ot" url="{{VendorsUrl}}"></other-items>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="close-deals-section" class="subDeals full" ng-hide="isDataLoading">
+        <div class="row">
+            <div class="boxTitle">
+                <h2><a href="#"><span class="title">More deals near me</span> <span class="titleMobile"></span></a></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3" ng-repeat="r in remaining | orderBy : 'createdOn'">
+                <remaining-items data="r" url="{{VendorsUrl}}"></remaining-items>
+            </div>
+        </div>
+    </section>
+</div>

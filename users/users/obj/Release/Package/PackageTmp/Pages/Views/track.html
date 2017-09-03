@@ -1,0 +1,85 @@
+﻿<div class="pageWrapper container" ng-controller="TrackCntrl">
+    <rx-shopy-loader is-data-loading="isDataLoading"></rx-shopy-loader>
+    <div class="main-container col1-layout row" ng-hide="isDataLoading">
+        <div class="main corner-round col-sm-12">
+            <div class="col-main">
+                <div class="order" style="min-height:550px;">
+                    <div class="page-title title-buttons">
+                        <h1 class="cart-header-title">Track Orders</h1>
+                    </div>
+                    <div class="row pull-right">
+                        <div class="col-md-12">
+                            <uib-pagination 
+                              ng-model="currentPage"
+                              total-items="totalItems"
+                              ng-change="pageChanged()"
+                              class="pagination-sm"
+                              max-size="3"
+                              items-per-page="limit">
+                            </uib-pagination>
+                        </div>
+                    </div>
+                    <div class="row order-status">
+                        <div class="col-sm-12">
+                            <div class="panel panel-default" ng-repeat="order in orders | orderBy : 'orderId': true">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <button class=" btn-proceed-checkout btn-checkout button" ng-click="viewDetails(order.id)">{{order.orderId}}</button>
+                                        </div>
+                                        <div class="col-sm-4" style="text-align: center;">
+                                            <h2 class="product-name" ng-switch on="order.orderStatus">                                                
+                                                <span ng-switch-when="Pending" class="label label-danger">Pending</span>
+                                                <span ng-switch-when="Order Packed" class="label label-warning">Order Packed</span>
+                                                <span ng-switch-when="Ready To Shipment" class="label label-info">Ready To Shipment</span>
+                                                <span ng-switch-when="Shipped To Delivery Center" class="label label-success">Shipped To Delivery Center</span>
+                                                <span ng-switch-when="Not Applicable" class="label label-default">Not Applicable</span>
+                                                <span ng-switch-default></span>
+                                            </h2>
+                                            <!-- <button class="btn btn-default btn-xs" style="margin-top: 10px;">Re-order</button> -->
+                                        </div>
+                                        <div class="col-sm-2 a-right">
+                                            <button class="button btn-update" ng-click="viewDetails(order.id)">view details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row" ng-repeat="item in order.ItemVm | orderBy : 'createdOn'">
+                                        <div class="col-sm-1">
+                                            <a ng-href="#/deal-info/{{item.dealId}}" title="{{item.name}}" class="product-image thumbnail">
+                                                <img width="75" height="75" ng-src="{{VendorsUrl}}/UploadedFiles/{{item.vendorId}}/{{item.image}}" alt="{{item.name}}" />
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h2 class="product-name"><a ng-href="#/deal-info/{{item.dealId}}">{{item.name}}</a> </h2>
+                                            <h6>&nbsp; &nbsp;Qty : {{ item.quantity }}</h6>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h2 class="product-name">Generated on  <span>{{order.createdOn | date: 'longDate'}}</span></h2>
+                                        </div>
+                                        <div class="col-sm-2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pull-right">
+                        <div class="col-md-12">
+                            <uib-pagination 
+                              ng-model="currentPage"
+                              total-items="totalItems"
+                              ng-change="pageChanged()"
+                              class="pagination-sm"
+                              max-size="3"
+                              items-per-page="limit">
+                            </uib-pagination>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+﻿<div class="row" ng-controller="loginCntrl">
+    <div class="col-md-3"></div>
+    <div class="col-md-6" style="margin-top:80px;">
+        <div class="panel panel-default">
+            <div class="panel-heading"><b>Register</b></div>
+            <div class="panel-body">
+                <form class="form-horizontal" id="frmRegister" name="frmRegister" ng-class="{ 'submitted' : submitted }" ng-submit="register(regVm)" novalidate>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" id="firstName" placeholder="First Name" ng-model="regVm.firstName" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" id="lastName" placeholder="Last Name" ng-model="regVm.lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" id="vendorName" placeholder="Vendor Name" ng-model="regVm.vendorName" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <input type="email" class="form-control" id="email" placeholder="Email" ng-model="regVm.email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <input type="password" class="form-control" id="password" placeholder="Password" ng-model="regVm.password" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <button class="btn btn-primary btn-block" type="submit" ng-click="submitted = true;"><b>Register</b></button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <a href="#/Pages/SignIn" class="btn btn-info btn-block" role="button"><b>Sign In</b></a>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12" style="color:red;"><b>{{ message }}</b></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+

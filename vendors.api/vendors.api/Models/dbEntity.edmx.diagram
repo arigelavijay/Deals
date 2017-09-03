@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="50d29c787a5548eb96ab4d47882c0fe7" Name="Diagram1">
+        <EntityTypeShape EntityType="deals2Model.authentication_token" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="deals2Model.banner" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="deals2Model.category" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="deals2Model.deal" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="deals2Model.location" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="deals2Model.usercart" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="deals2Model.user" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="deals2Model.vendor" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <AssociationConnector Association="deals2Model.fk_deal_banners" ManuallyRouted="false" />
+        <AssociationConnector Association="deals2Model.FK_fkey_banner_id" ManuallyRouted="false" />
+        <AssociationConnector Association="deals2Model.fk_deal_category" ManuallyRouted="false" />
+        <AssociationConnector Association="deals2Model.fk_deal_locations" ManuallyRouted="false" />
+        <AssociationConnector Association="deals2Model.fk_deal_vendors" ManuallyRouted="false" />
+        <AssociationConnector Association="deals2Model.FK_fkey_deal_id" ManuallyRouted="false" />
+        <AssociationConnector Association="deals2Model.FK_fkey_location_id" ManuallyRouted="false" />
+        <AssociationConnector Association="deals2Model.FK_fkey_user_id" ManuallyRouted="false" />
+        <AssociationConnector Association="deals2Model.FK_fkey_vendor_id" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

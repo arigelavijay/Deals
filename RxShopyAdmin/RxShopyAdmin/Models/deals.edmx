@@ -1,0 +1,1550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="dealsModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="dealsModelStoreContainer">
+          <EntitySet Name="addresses" EntityType="dealsModel.Store.addresses" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="authentication_token" EntityType="dealsModel.Store.authentication_token" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="banners" EntityType="dealsModel.Store.banners" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="category" EntityType="dealsModel.Store.category" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="categoryconfig" EntityType="dealsModel.Store.categoryconfig" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="deal" EntityType="dealsModel.Store.deal" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="guestid" EntityType="dealsModel.Store.guestid" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="locations" EntityType="dealsModel.Store.locations" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="orderitems" EntityType="dealsModel.Store.orderitems" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="orders" EntityType="dealsModel.Store.orders" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="promocodes" EntityType="dealsModel.Store.promocodes" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="shippingaddress" EntityType="dealsModel.Store.shippingaddress" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="states" EntityType="dealsModel.Store.states" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="usercarts" EntityType="dealsModel.Store.usercarts" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="userhistory" EntityType="dealsModel.Store.userhistory" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="userrating" EntityType="dealsModel.Store.userrating" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="userreviews" EntityType="dealsModel.Store.userreviews" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="users" EntityType="dealsModel.Store.users" store:Type="Tables" Schema="deals2" />
+          <EntitySet Name="vendors" EntityType="dealsModel.Store.vendors" store:Type="Tables" Schema="deals2" />
+          <AssociationSet Name="fk_address_stateId" Association="dealsModel.Store.fk_address_stateId">
+            <End Role="states" EntitySet="states" />
+            <End Role="addresses" EntitySet="addresses" />
+          </AssociationSet>
+          <AssociationSet Name="fk_address_userid" Association="dealsModel.Store.fk_address_userid">
+            <End Role="users" EntitySet="users" />
+            <End Role="addresses" EntitySet="addresses" />
+          </AssociationSet>
+          <AssociationSet Name="fk_categoryconfig_category" Association="dealsModel.Store.fk_categoryconfig_category">
+            <End Role="category" EntitySet="category" />
+            <End Role="categoryconfig" EntitySet="categoryconfig" />
+          </AssociationSet>
+          <AssociationSet Name="fk_deal_banners" Association="dealsModel.Store.fk_deal_banners">
+            <End Role="banners" EntitySet="banners" />
+            <End Role="deal" EntitySet="deal" />
+          </AssociationSet>
+          <AssociationSet Name="fk_deal_category" Association="dealsModel.Store.fk_deal_category">
+            <End Role="category" EntitySet="category" />
+            <End Role="deal" EntitySet="deal" />
+          </AssociationSet>
+          <AssociationSet Name="fk_deal_locations" Association="dealsModel.Store.fk_deal_locations">
+            <End Role="locations" EntitySet="locations" />
+            <End Role="deal" EntitySet="deal" />
+          </AssociationSet>
+          <AssociationSet Name="fk_deal_vendors" Association="dealsModel.Store.fk_deal_vendors">
+            <End Role="vendors" EntitySet="vendors" />
+            <End Role="deal" EntitySet="deal" />
+          </AssociationSet>
+          <AssociationSet Name="FK_fkey_banner_id" Association="dealsModel.Store.FK_fkey_banner_id">
+            <End Role="banners" EntitySet="banners" />
+            <End Role="usercarts" EntitySet="usercarts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_fkey_deal_id" Association="dealsModel.Store.FK_fkey_deal_id">
+            <End Role="deal" EntitySet="deal" />
+            <End Role="usercarts" EntitySet="usercarts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_fkey_location_id" Association="dealsModel.Store.FK_fkey_location_id">
+            <End Role="locations" EntitySet="locations" />
+            <End Role="usercarts" EntitySet="usercarts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_fkey_vendor_id" Association="dealsModel.Store.FK_fkey_vendor_id">
+            <End Role="vendors" EntitySet="vendors" />
+            <End Role="usercarts" EntitySet="usercarts" />
+          </AssociationSet>
+          <AssociationSet Name="fk_orderItems_orders" Association="dealsModel.Store.fk_orderItems_orders">
+            <End Role="orders" EntitySet="orders" />
+            <End Role="orderitems" EntitySet="orderitems" />
+          </AssociationSet>
+          <AssociationSet Name="fk_orders_shipping" Association="dealsModel.Store.fk_orders_shipping">
+            <End Role="shippingaddress" EntitySet="shippingaddress" />
+            <End Role="orders" EntitySet="orders" />
+          </AssociationSet>
+          <AssociationSet Name="fk_orders_users" Association="dealsModel.Store.fk_orders_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="orders" EntitySet="orders" />
+          </AssociationSet>
+          <AssociationSet Name="fk_shippingadd_userid" Association="dealsModel.Store.fk_shippingadd_userid">
+            <End Role="users" EntitySet="users" />
+            <End Role="shippingaddress" EntitySet="shippingaddress" />
+          </AssociationSet>
+          <AssociationSet Name="fk_userHistory_deal" Association="dealsModel.Store.fk_userHistory_deal">
+            <End Role="deal" EntitySet="deal" />
+            <End Role="userhistory" EntitySet="userhistory" />
+          </AssociationSet>
+          <AssociationSet Name="fk_userHistory_users" Association="dealsModel.Store.fk_userHistory_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="userhistory" EntitySet="userhistory" />
+          </AssociationSet>
+          <AssociationSet Name="fk_userRating_deals" Association="dealsModel.Store.fk_userRating_deals">
+            <End Role="deal" EntitySet="deal" />
+            <End Role="userrating" EntitySet="userrating" />
+          </AssociationSet>
+          <AssociationSet Name="fk_userRating_users" Association="dealsModel.Store.fk_userRating_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="userrating" EntitySet="userrating" />
+          </AssociationSet>
+          <AssociationSet Name="fk_userReviews_deals" Association="dealsModel.Store.fk_userReviews_deals">
+            <End Role="deal" EntitySet="deal" />
+            <End Role="userreviews" EntitySet="userreviews" />
+          </AssociationSet>
+          <AssociationSet Name="fk_userReviews_users" Association="dealsModel.Store.fk_userReviews_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="userreviews" EntitySet="userreviews" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="addresses">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="userId" Type="int" Nullable="false" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="pincode" Type="int" Nullable="false" />
+          <Property Name="address" Type="varchar" Nullable="false" MaxLength="250" />
+          <Property Name="landmark" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="city" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="state" Type="int" Nullable="false" />
+          <Property Name="phone" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="isDefault" Type="bit" Nullable="false" />
+          <Property Name="createdOn" Type="datetime" Nullable="false" />
+          <Property Name="isActive" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="authentication_token">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="userid" Type="int" Nullable="false" />
+          <Property Name="token" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="created" Type="datetime" Nullable="false" />
+          <Property Name="expiretime" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="banners">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="description" Type="varchar" MaxLength="200" />
+          <Property Name="createdDate" Type="datetime" Nullable="false" />
+          <Property Name="isActive" Type="bool" Nullable="false" />
+        </EntityType>
+        <EntityType Name="category">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="varchar" MaxLength="45" />
+          <Property Name="description" Type="varchar" MaxLength="300" />
+          <Property Name="createdOn" Type="datetime" />
+          <Property Name="isActive" Type="bool" />
+        </EntityType>
+        <EntityType Name="categoryconfig">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="categoryId" Type="int" Nullable="false" />
+          <Property Name="sequence" Type="int" Nullable="false" />
+          <Property Name="displayItems" Type="int" Nullable="false" />
+          <Property Name="isMore" Type="bit" Nullable="false" />
+          <Property Name="dateCreated" Type="datetime" Nullable="false" />
+          <Property Name="isActive" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="deal">
+          <Key>
+            <PropertyRef Name="dealId" />
+          </Key>
+          <Property Name="dealId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="vendorId" Type="int" Nullable="false" />
+          <Property Name="locationId" Type="int" Nullable="false" />
+          <Property Name="bannerId" Type="int" Nullable="false" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="categoryId" Type="int" />
+          <Property Name="description" Type="varchar" Nullable="false" MaxLength="500" />
+          <Property Name="startsOn" Type="datetime" Nullable="false" />
+          <Property Name="endsOn" Type="datetime" Nullable="false" />
+          <Property Name="count" Type="int" Nullable="false" />
+          <Property Name="image" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="createdOn" Type="datetime" Nullable="false" />
+          <Property Name="isActive" Type="bool" Nullable="false" />
+          <Property Name="sold" Type="int" />
+          <Property Name="unitPrice" Type="float" Nullable="false" />
+          <Property Name="discount" Type="float" Nullable="false" />
+          <Property Name="sellingPrice" Type="float" Nullable="false" />
+          <Property Name="hasShipping" Type="bit" />
+        </EntityType>
+        <EntityType Name="guestid">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="guest_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="locations">
+          <Key>
+            <PropertyRef Name="locationId" />
+          </Key>
+          <Property Name="locationId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="locationName" Type="varchar" Nullable="false" MaxLength="75" />
+          <Property Name="parentId" Type="int" Nullable="false" />
+          <Property Name="createddate" Type="datetime" Nullable="false" />
+          <Property Name="isActive" Type="bool" Nullable="false" />
+        </EntityType>
+        <EntityType Name="orderitems">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="orderId" Type="int" Nullable="false" />
+          <Property Name="dealId" Type="int" Nullable="false" />
+          <Property Name="quantity" Type="int" Nullable="false" />
+          <Property Name="unitPrice" Type="float" Nullable="false" />
+          <Property Name="discount" Type="float" Nullable="false" />
+          <Property Name="sellingPrice" Type="float" Nullable="false" />
+          <Property Name="subTotal" Type="float" Nullable="false" />
+          <Property Name="createdOn" Type="datetime" Nullable="false" />
+          <Property Name="isActive" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="orders">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="orderId" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="userId" Type="int" />
+          <Property Name="orderStatus" Type="int" Nullable="false" />
+          <Property Name="subTotal" Type="float" Nullable="false" />
+          <Property Name="promoCode" Type="varchar" MaxLength="45" />
+          <Property Name="promoDiscount" Type="float" />
+          <Property Name="grandTotal" Type="float" Nullable="false" />
+          <Property Name="shippingId" Type="int" Nullable="false" />
+          <Property Name="createdOn" Type="datetime" Nullable="false" />
+          <Property Name="isActive" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="promocodes">
+          <Key>
+            <PropertyRef Name="promoId" />
+          </Key>
+          <Property Name="promoId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="promoCode" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="promoValue" Type="int" Nullable="false" />
+          <Property Name="categoryId" Type="int" Nullable="false" />
+          <Property Name="createdOn" Type="datetime" Nullable="false" />
+          <Property Name="expiresOn" Type="datetime" Nullable="false" />
+          <Property Name="isPercentage" Type="bit" Nullable="false" />
+          <Property Name="isActive" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="shippingaddress">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="userId" Type="int" Nullable="false" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="pincode" Type="int" Nullable="false" />
+          <Property Name="address" Type="varchar" Nullable="false" MaxLength="250" />
+          <Property Name="landmark" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="city" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="state" Type="int" Nullable="false" />
+          <Property Name="phone" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="createdOn" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="states">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="code" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="createdOn" Type="datetime" Nullable="false" />
+          <Property Name="isactive" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="usercarts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="userId" Type="int" Nullable="false" />
+          <Property Name="locationId" Type="int" Nullable="false" />
+          <Property Name="bannerId" Type="int" Nullable="false" />
+          <Property Name="vendorId" Type="int" Nullable="false" />
+          <Property Name="quantity" Type="int" Nullable="false" />
+          <Property Name="dateCreated" Type="datetime" Nullable="false" />
+          <Property Name="dateModified" Type="datetime" Nullable="false" />
+          <Property Name="isActive" Type="bool" Nullable="false" />
+          <Property Name="dealId" Type="int" Nullable="false" />
+          <Property Name="isguest" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="userhistory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="userId" Type="int" Nullable="false" />
+          <Property Name="dealId" Type="int" Nullable="false" />
+          <Property Name="dateCreated" Type="datetime" Nullable="false" />
+          <Property Name="isActive" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="userrating">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="userId" Type="int" Nullable="false" />
+          <Property Name="dealId" Type="int" Nullable="false" />
+          <Property Name="rating" Type="int" Nullable="false" />
+          <Property Name="dateCreated" Type="datetime" Nullable="false" />
+          <Property Name="isActive" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="userreviews">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="userId" Type="int" Nullable="false" />
+          <Property Name="dealId" Type="int" Nullable="false" />
+          <Property Name="title" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="review" Type="varchar" Nullable="false" MaxLength="300" />
+          <Property Name="rating" Type="int" Nullable="false" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="dateCreated" Type="datetime" Nullable="false" />
+          <Property Name="isActive" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="firstName" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="lastName" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="userName" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="email" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="password" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="createdOn" Type="datetime" Nullable="false" />
+          <Property Name="isActive" Type="bool" Nullable="false" />
+        </EntityType>
+        <EntityType Name="vendors">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="firstname" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="lastname" Type="varchar" MaxLength="45" />
+          <Property Name="vendorname" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="email" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="password" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="createddate" Type="datetime" Nullable="false" />
+          <Property Name="isactive" Type="bool" Nullable="false" />
+        </EntityType>
+        <Association Name="fk_address_stateId">
+          <End Role="states" Type="dealsModel.Store.states" Multiplicity="1" />
+          <End Role="addresses" Type="dealsModel.Store.addresses" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="states">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="addresses">
+              <PropertyRef Name="state" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_address_userid">
+          <End Role="users" Type="dealsModel.Store.users" Multiplicity="1" />
+          <End Role="addresses" Type="dealsModel.Store.addresses" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="addresses">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_categoryconfig_category">
+          <End Role="category" Type="dealsModel.Store.category" Multiplicity="1" />
+          <End Role="categoryconfig" Type="dealsModel.Store.categoryconfig" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="categoryconfig">
+              <PropertyRef Name="categoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_deal_banners">
+          <End Role="banners" Type="dealsModel.Store.banners" Multiplicity="1" />
+          <End Role="deal" Type="dealsModel.Store.deal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="banners">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="deal">
+              <PropertyRef Name="bannerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_deal_category">
+          <End Role="category" Type="dealsModel.Store.category" Multiplicity="0..1" />
+          <End Role="deal" Type="dealsModel.Store.deal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="deal">
+              <PropertyRef Name="categoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_deal_locations">
+          <End Role="locations" Type="dealsModel.Store.locations" Multiplicity="1" />
+          <End Role="deal" Type="dealsModel.Store.deal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="locations">
+              <PropertyRef Name="locationId" />
+            </Principal>
+            <Dependent Role="deal">
+              <PropertyRef Name="locationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_deal_vendors">
+          <End Role="vendors" Type="dealsModel.Store.vendors" Multiplicity="1" />
+          <End Role="deal" Type="dealsModel.Store.deal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="vendors">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="deal">
+              <PropertyRef Name="vendorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_fkey_banner_id">
+          <End Role="banners" Type="dealsModel.Store.banners" Multiplicity="1" />
+          <End Role="usercarts" Type="dealsModel.Store.usercarts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="banners">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="usercarts">
+              <PropertyRef Name="bannerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_fkey_deal_id">
+          <End Role="deal" Type="dealsModel.Store.deal" Multiplicity="1" />
+          <End Role="usercarts" Type="dealsModel.Store.usercarts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="deal">
+              <PropertyRef Name="dealId" />
+            </Principal>
+            <Dependent Role="usercarts">
+              <PropertyRef Name="dealId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_fkey_location_id">
+          <End Role="locations" Type="dealsModel.Store.locations" Multiplicity="1" />
+          <End Role="usercarts" Type="dealsModel.Store.usercarts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="locations">
+              <PropertyRef Name="locationId" />
+            </Principal>
+            <Dependent Role="usercarts">
+              <PropertyRef Name="locationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_fkey_vendor_id">
+          <End Role="vendors" Type="dealsModel.Store.vendors" Multiplicity="1" />
+          <End Role="usercarts" Type="dealsModel.Store.usercarts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="vendors">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="usercarts">
+              <PropertyRef Name="vendorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_orderItems_orders">
+          <End Role="orders" Type="dealsModel.Store.orders" Multiplicity="1" />
+          <End Role="orderitems" Type="dealsModel.Store.orderitems" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="orders">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="orderitems">
+              <PropertyRef Name="orderId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_orders_shipping">
+          <End Role="shippingaddress" Type="dealsModel.Store.shippingaddress" Multiplicity="1" />
+          <End Role="orders" Type="dealsModel.Store.orders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="shippingaddress">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="orders">
+              <PropertyRef Name="shippingId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_orders_users">
+          <End Role="users" Type="dealsModel.Store.users" Multiplicity="0..1" />
+          <End Role="orders" Type="dealsModel.Store.orders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="orders">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_shippingadd_userid">
+          <End Role="users" Type="dealsModel.Store.users" Multiplicity="1" />
+          <End Role="shippingaddress" Type="dealsModel.Store.shippingaddress" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="shippingaddress">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_userHistory_deal">
+          <End Role="deal" Type="dealsModel.Store.deal" Multiplicity="1" />
+          <End Role="userhistory" Type="dealsModel.Store.userhistory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="deal">
+              <PropertyRef Name="dealId" />
+            </Principal>
+            <Dependent Role="userhistory">
+              <PropertyRef Name="dealId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_userHistory_users">
+          <End Role="users" Type="dealsModel.Store.users" Multiplicity="1" />
+          <End Role="userhistory" Type="dealsModel.Store.userhistory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="userhistory">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_userRating_deals">
+          <End Role="deal" Type="dealsModel.Store.deal" Multiplicity="1" />
+          <End Role="userrating" Type="dealsModel.Store.userrating" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="deal">
+              <PropertyRef Name="dealId" />
+            </Principal>
+            <Dependent Role="userrating">
+              <PropertyRef Name="dealId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_userRating_users">
+          <End Role="users" Type="dealsModel.Store.users" Multiplicity="1" />
+          <End Role="userrating" Type="dealsModel.Store.userrating" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="userrating">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_userReviews_deals">
+          <End Role="deal" Type="dealsModel.Store.deal" Multiplicity="1" />
+          <End Role="userreviews" Type="dealsModel.Store.userreviews" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="deal">
+              <PropertyRef Name="dealId" />
+            </Principal>
+            <Dependent Role="userreviews">
+              <PropertyRef Name="dealId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_userReviews_users">
+          <End Role="users" Type="dealsModel.Store.users" Multiplicity="1" />
+          <End Role="userreviews" Type="dealsModel.Store.userreviews" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="userreviews">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dealsModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="dealsEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="addresses" EntityType="dealsModel.address" />
+          <EntitySet Name="authentication_token" EntityType="dealsModel.authentication_token" />
+          <EntitySet Name="banners" EntityType="dealsModel.banner" />
+          <EntitySet Name="categories" EntityType="dealsModel.category" />
+          <EntitySet Name="categoryconfigs" EntityType="dealsModel.categoryconfig" />
+          <EntitySet Name="deals" EntityType="dealsModel.deal" />
+          <EntitySet Name="guestids" EntityType="dealsModel.guestid" />
+          <EntitySet Name="locations" EntityType="dealsModel.location" />
+          <EntitySet Name="orderitems" EntityType="dealsModel.orderitem" />
+          <EntitySet Name="orders" EntityType="dealsModel.order" />
+          <EntitySet Name="promocodes" EntityType="dealsModel.promocode" />
+          <EntitySet Name="shippingaddresses" EntityType="dealsModel.shippingaddress" />
+          <EntitySet Name="states" EntityType="dealsModel.state" />
+          <EntitySet Name="usercarts" EntityType="dealsModel.usercart" />
+          <EntitySet Name="userhistories" EntityType="dealsModel.userhistory" />
+          <EntitySet Name="userratings" EntityType="dealsModel.userrating" />
+          <EntitySet Name="userreviews" EntityType="dealsModel.userreview" />
+          <EntitySet Name="users" EntityType="dealsModel.user" />
+          <EntitySet Name="vendors" EntityType="dealsModel.vendor" />
+          <AssociationSet Name="fk_address_stateId" Association="dealsModel.fk_address_stateId">
+            <End Role="states" EntitySet="states" />
+            <End Role="addresses" EntitySet="addresses" />
+          </AssociationSet>
+          <AssociationSet Name="fk_address_userid" Association="dealsModel.fk_address_userid">
+            <End Role="users" EntitySet="users" />
+            <End Role="addresses" EntitySet="addresses" />
+          </AssociationSet>
+          <AssociationSet Name="fk_deal_banners" Association="dealsModel.fk_deal_banners">
+            <End Role="banners" EntitySet="banners" />
+            <End Role="deal" EntitySet="deals" />
+          </AssociationSet>
+          <AssociationSet Name="FK_fkey_banner_id" Association="dealsModel.FK_fkey_banner_id">
+            <End Role="banners" EntitySet="banners" />
+            <End Role="usercarts" EntitySet="usercarts" />
+          </AssociationSet>
+          <AssociationSet Name="fk_categoryconfig_category" Association="dealsModel.fk_categoryconfig_category">
+            <End Role="category" EntitySet="categories" />
+            <End Role="categoryconfig" EntitySet="categoryconfigs" />
+          </AssociationSet>
+          <AssociationSet Name="fk_deal_category" Association="dealsModel.fk_deal_category">
+            <End Role="category" EntitySet="categories" />
+            <End Role="deal" EntitySet="deals" />
+          </AssociationSet>
+          <AssociationSet Name="fk_deal_locations" Association="dealsModel.fk_deal_locations">
+            <End Role="locations" EntitySet="locations" />
+            <End Role="deal" EntitySet="deals" />
+          </AssociationSet>
+          <AssociationSet Name="fk_deal_vendors" Association="dealsModel.fk_deal_vendors">
+            <End Role="vendors" EntitySet="vendors" />
+            <End Role="deal" EntitySet="deals" />
+          </AssociationSet>
+          <AssociationSet Name="FK_fkey_deal_id" Association="dealsModel.FK_fkey_deal_id">
+            <End Role="deal" EntitySet="deals" />
+            <End Role="usercarts" EntitySet="usercarts" />
+          </AssociationSet>
+          <AssociationSet Name="fk_userHistory_deal" Association="dealsModel.fk_userHistory_deal">
+            <End Role="deal" EntitySet="deals" />
+            <End Role="userhistory" EntitySet="userhistories" />
+          </AssociationSet>
+          <AssociationSet Name="fk_userRating_deals" Association="dealsModel.fk_userRating_deals">
+            <End Role="deal" EntitySet="deals" />
+            <End Role="userrating" EntitySet="userratings" />
+          </AssociationSet>
+          <AssociationSet Name="fk_userReviews_deals" Association="dealsModel.fk_userReviews_deals">
+            <End Role="deal" EntitySet="deals" />
+            <End Role="userreviews" EntitySet="userreviews" />
+          </AssociationSet>
+          <AssociationSet Name="FK_fkey_location_id" Association="dealsModel.FK_fkey_location_id">
+            <End Role="locations" EntitySet="locations" />
+            <End Role="usercarts" EntitySet="usercarts" />
+          </AssociationSet>
+          <AssociationSet Name="fk_orderItems_orders" Association="dealsModel.fk_orderItems_orders">
+            <End Role="orders" EntitySet="orders" />
+            <End Role="orderitems" EntitySet="orderitems" />
+          </AssociationSet>
+          <AssociationSet Name="fk_orders_shipping" Association="dealsModel.fk_orders_shipping">
+            <End Role="shippingaddress" EntitySet="shippingaddresses" />
+            <End Role="orders" EntitySet="orders" />
+          </AssociationSet>
+          <AssociationSet Name="fk_orders_users" Association="dealsModel.fk_orders_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="orders" EntitySet="orders" />
+          </AssociationSet>
+          <AssociationSet Name="fk_shippingadd_userid" Association="dealsModel.fk_shippingadd_userid">
+            <End Role="users" EntitySet="users" />
+            <End Role="shippingaddress" EntitySet="shippingaddresses" />
+          </AssociationSet>
+          <AssociationSet Name="FK_fkey_vendor_id" Association="dealsModel.FK_fkey_vendor_id">
+            <End Role="vendors" EntitySet="vendors" />
+            <End Role="usercarts" EntitySet="usercarts" />
+          </AssociationSet>
+          <AssociationSet Name="fk_userHistory_users" Association="dealsModel.fk_userHistory_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="userhistory" EntitySet="userhistories" />
+          </AssociationSet>
+          <AssociationSet Name="fk_userRating_users" Association="dealsModel.fk_userRating_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="userrating" EntitySet="userratings" />
+          </AssociationSet>
+          <AssociationSet Name="fk_userReviews_users" Association="dealsModel.fk_userReviews_users">
+            <End Role="users" EntitySet="users" />
+            <End Role="userreviews" EntitySet="userreviews" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="address">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="userId" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="pincode" Type="Int32" Nullable="false" />
+          <Property Name="address1" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+          <Property Name="landmark" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="city" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="state" Type="Int32" Nullable="false" />
+          <Property Name="phone" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="isDefault" Type="Boolean" Nullable="false" />
+          <Property Name="createdOn" Type="DateTime" Nullable="false" />
+          <Property Name="isActive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="state1" Relationship="dealsModel.fk_address_stateId" FromRole="addresses" ToRole="states" />
+          <NavigationProperty Name="user" Relationship="dealsModel.fk_address_userid" FromRole="addresses" ToRole="users" />
+        </EntityType>
+        <EntityType Name="authentication_token">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="userid" Type="Int32" Nullable="false" />
+          <Property Name="token" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="created" Type="DateTime" Nullable="false" />
+          <Property Name="expiretime" Type="DateTime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="banner">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="description" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="createdDate" Type="DateTime" Nullable="false" />
+          <Property Name="isActive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="deals" Relationship="dealsModel.fk_deal_banners" FromRole="banners" ToRole="deal" />
+          <NavigationProperty Name="usercarts" Relationship="dealsModel.FK_fkey_banner_id" FromRole="banners" ToRole="usercarts" />
+        </EntityType>
+        <EntityType Name="category">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="description" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="createdOn" Type="DateTime" />
+          <Property Name="isActive" Type="Boolean" />
+          <NavigationProperty Name="categoryconfigs" Relationship="dealsModel.fk_categoryconfig_category" FromRole="category" ToRole="categoryconfig" />
+          <NavigationProperty Name="deals" Relationship="dealsModel.fk_deal_category" FromRole="category" ToRole="deal" />
+        </EntityType>
+        <EntityType Name="categoryconfig">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="categoryId" Type="Int32" Nullable="false" />
+          <Property Name="sequence" Type="Int32" Nullable="false" />
+          <Property Name="dateCreated" Type="DateTime" Nullable="false" />
+          <Property Name="isActive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="category" Relationship="dealsModel.fk_categoryconfig_category" FromRole="categoryconfig" ToRole="category" />
+          <Property Type="Int32" Name="displayItems" Nullable="false" />
+          <Property Type="Boolean" Name="isMore" Nullable="false" />
+        </EntityType>
+        <EntityType Name="deal">
+          <Key>
+            <PropertyRef Name="dealId" />
+          </Key>
+          <Property Name="dealId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="vendorId" Type="Int32" Nullable="false" />
+          <Property Name="locationId" Type="Int32" Nullable="false" />
+          <Property Name="bannerId" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="categoryId" Type="Int32" />
+          <Property Name="description" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+          <Property Name="startsOn" Type="DateTime" Nullable="false" />
+          <Property Name="endsOn" Type="DateTime" Nullable="false" />
+          <Property Name="count" Type="Int32" Nullable="false" />
+          <Property Name="image" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="createdOn" Type="DateTime" Nullable="false" />
+          <Property Name="isActive" Type="Boolean" Nullable="false" />
+          <Property Name="sold" Type="Int32" />
+          <Property Name="unitPrice" Type="Single" Nullable="false" />
+          <Property Name="discount" Type="Single" Nullable="false" />
+          <Property Name="sellingPrice" Type="Single" Nullable="false" />
+          <Property Name="hasShipping" Type="Boolean" />
+          <NavigationProperty Name="banner" Relationship="dealsModel.fk_deal_banners" FromRole="deal" ToRole="banners" />
+          <NavigationProperty Name="category" Relationship="dealsModel.fk_deal_category" FromRole="deal" ToRole="category" />
+          <NavigationProperty Name="location" Relationship="dealsModel.fk_deal_locations" FromRole="deal" ToRole="locations" />
+          <NavigationProperty Name="vendor" Relationship="dealsModel.fk_deal_vendors" FromRole="deal" ToRole="vendors" />
+          <NavigationProperty Name="usercarts" Relationship="dealsModel.FK_fkey_deal_id" FromRole="deal" ToRole="usercarts" />
+          <NavigationProperty Name="userhistories" Relationship="dealsModel.fk_userHistory_deal" FromRole="deal" ToRole="userhistory" />
+          <NavigationProperty Name="userratings" Relationship="dealsModel.fk_userRating_deals" FromRole="deal" ToRole="userrating" />
+          <NavigationProperty Name="userreviews" Relationship="dealsModel.fk_userReviews_deals" FromRole="deal" ToRole="userreviews" />
+        </EntityType>
+        <EntityType Name="guestid">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="guest_id" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="location">
+          <Key>
+            <PropertyRef Name="locationId" />
+          </Key>
+          <Property Name="locationId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="locationName" Type="String" Nullable="false" MaxLength="75" Unicode="false" FixedLength="false" />
+          <Property Name="createddate" Type="DateTime" Nullable="false" />
+          <Property Name="isActive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="deals" Relationship="dealsModel.fk_deal_locations" FromRole="locations" ToRole="deal" />
+          <NavigationProperty Name="usercarts" Relationship="dealsModel.FK_fkey_location_id" FromRole="locations" ToRole="usercarts" />
+          <Property Type="Int32" Name="parentId" Nullable="false" />
+        </EntityType>
+        <EntityType Name="orderitem">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="orderId" Type="Int32" Nullable="false" />
+          <Property Name="dealId" Type="Int32" Nullable="false" />
+          <Property Name="quantity" Type="Int32" Nullable="false" />
+          <Property Name="unitPrice" Type="Single" Nullable="false" />
+          <Property Name="discount" Type="Single" Nullable="false" />
+          <Property Name="sellingPrice" Type="Single" Nullable="false" />
+          <Property Name="subTotal" Type="Single" Nullable="false" />
+          <Property Name="createdOn" Type="DateTime" Nullable="false" />
+          <Property Name="isActive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="order" Relationship="dealsModel.fk_orderItems_orders" FromRole="orderitems" ToRole="orders" />
+        </EntityType>
+        <EntityType Name="order">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="orderId" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="userId" Type="Int32" />
+          <Property Name="orderStatus" Type="Int32" Nullable="false" />
+          <Property Name="subTotal" Type="Single" Nullable="false" />
+          <Property Name="promoCode" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="promoDiscount" Type="Single" />
+          <Property Name="grandTotal" Type="Single" Nullable="false" />
+          <Property Name="shippingId" Type="Int32" Nullable="false" />
+          <Property Name="createdOn" Type="DateTime" Nullable="false" />
+          <Property Name="isActive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="orderitems" Relationship="dealsModel.fk_orderItems_orders" FromRole="orders" ToRole="orderitems" />
+          <NavigationProperty Name="shippingaddress" Relationship="dealsModel.fk_orders_shipping" FromRole="orders" ToRole="shippingaddress" />
+          <NavigationProperty Name="user" Relationship="dealsModel.fk_orders_users" FromRole="orders" ToRole="users" />
+        </EntityType>
+        <EntityType Name="promocode">
+          <Key>
+            <PropertyRef Name="promoId" />
+          </Key>
+          <Property Name="promoId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="promoCode1" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="promoValue" Type="Int32" Nullable="false" />
+          <Property Name="categoryId" Type="Int32" Nullable="false" />
+          <Property Name="createdOn" Type="DateTime" Nullable="false" />
+          <Property Name="expiresOn" Type="DateTime" Nullable="false" />
+          <Property Name="isPercentage" Type="Boolean" Nullable="false" />
+          <Property Name="isActive" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="shippingaddress">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="userId" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="pincode" Type="Int32" Nullable="false" />
+          <Property Name="address" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+          <Property Name="landmark" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="city" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="state" Type="Int32" Nullable="false" />
+          <Property Name="phone" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="createdOn" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="orders" Relationship="dealsModel.fk_orders_shipping" FromRole="shippingaddress" ToRole="orders" />
+          <NavigationProperty Name="user" Relationship="dealsModel.fk_shippingadd_userid" FromRole="shippingaddress" ToRole="users" />
+        </EntityType>
+        <EntityType Name="state">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="code" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="createdOn" Type="DateTime" Nullable="false" />
+          <Property Name="isactive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="addresses" Relationship="dealsModel.fk_address_stateId" FromRole="states" ToRole="addresses" />
+        </EntityType>
+        <EntityType Name="usercart">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="userId" Type="Int32" Nullable="false" />
+          <Property Name="locationId" Type="Int32" Nullable="false" />
+          <Property Name="bannerId" Type="Int32" Nullable="false" />
+          <Property Name="vendorId" Type="Int32" Nullable="false" />
+          <Property Name="quantity" Type="Int32" Nullable="false" />
+          <Property Name="dateCreated" Type="DateTime" Nullable="false" />
+          <Property Name="dateModified" Type="DateTime" Nullable="false" />
+          <Property Name="isActive" Type="Boolean" Nullable="false" />
+          <Property Name="dealId" Type="Int32" Nullable="false" />
+          <Property Name="isguest" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="banner" Relationship="dealsModel.FK_fkey_banner_id" FromRole="usercarts" ToRole="banners" />
+          <NavigationProperty Name="deal" Relationship="dealsModel.FK_fkey_deal_id" FromRole="usercarts" ToRole="deal" />
+          <NavigationProperty Name="location" Relationship="dealsModel.FK_fkey_location_id" FromRole="usercarts" ToRole="locations" />
+          <NavigationProperty Name="vendor" Relationship="dealsModel.FK_fkey_vendor_id" FromRole="usercarts" ToRole="vendors" />
+        </EntityType>
+        <EntityType Name="userhistory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="userId" Type="Int32" Nullable="false" />
+          <Property Name="dealId" Type="Int32" Nullable="false" />
+          <Property Name="dateCreated" Type="DateTime" Nullable="false" />
+          <Property Name="isActive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="deal" Relationship="dealsModel.fk_userHistory_deal" FromRole="userhistory" ToRole="deal" />
+          <NavigationProperty Name="user" Relationship="dealsModel.fk_userHistory_users" FromRole="userhistory" ToRole="users" />
+        </EntityType>
+        <EntityType Name="userrating">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="userId" Type="Int32" Nullable="false" />
+          <Property Name="dealId" Type="Int32" Nullable="false" />
+          <Property Name="rating" Type="Int32" Nullable="false" />
+          <Property Name="dateCreated" Type="DateTime" Nullable="false" />
+          <Property Name="isActive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="deal" Relationship="dealsModel.fk_userRating_deals" FromRole="userrating" ToRole="deal" />
+          <NavigationProperty Name="user" Relationship="dealsModel.fk_userRating_users" FromRole="userrating" ToRole="users" />
+        </EntityType>
+        <EntityType Name="userreview">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="userId" Type="Int32" Nullable="false" />
+          <Property Name="dealId" Type="Int32" Nullable="false" />
+          <Property Name="title" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="review" Type="String" Nullable="false" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="rating" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="dateCreated" Type="DateTime" Nullable="false" />
+          <Property Name="isActive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="deal" Relationship="dealsModel.fk_userReviews_deals" FromRole="userreviews" ToRole="deal" />
+          <NavigationProperty Name="user" Relationship="dealsModel.fk_userReviews_users" FromRole="userreviews" ToRole="users" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="firstName" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="lastName" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="userName" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="email" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="password" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="createdOn" Type="DateTime" Nullable="false" />
+          <Property Name="isActive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="addresses" Relationship="dealsModel.fk_address_userid" FromRole="users" ToRole="addresses" />
+          <NavigationProperty Name="orders" Relationship="dealsModel.fk_orders_users" FromRole="users" ToRole="orders" />
+          <NavigationProperty Name="shippingaddresses" Relationship="dealsModel.fk_shippingadd_userid" FromRole="users" ToRole="shippingaddress" />
+          <NavigationProperty Name="userhistories" Relationship="dealsModel.fk_userHistory_users" FromRole="users" ToRole="userhistory" />
+          <NavigationProperty Name="userratings" Relationship="dealsModel.fk_userRating_users" FromRole="users" ToRole="userrating" />
+          <NavigationProperty Name="userreviews" Relationship="dealsModel.fk_userReviews_users" FromRole="users" ToRole="userreviews" />
+        </EntityType>
+        <EntityType Name="vendor">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="firstname" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="lastname" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="vendorname" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="email" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="password" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="createddate" Type="DateTime" Nullable="false" />
+          <Property Name="isactive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="deals" Relationship="dealsModel.fk_deal_vendors" FromRole="vendors" ToRole="deal" />
+          <NavigationProperty Name="usercarts" Relationship="dealsModel.FK_fkey_vendor_id" FromRole="vendors" ToRole="usercarts" />
+        </EntityType>
+        <Association Name="fk_address_stateId">
+          <End Role="states" Type="dealsModel.state" Multiplicity="1" />
+          <End Role="addresses" Type="dealsModel.address" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="states">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="addresses">
+              <PropertyRef Name="state" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_address_userid">
+          <End Role="users" Type="dealsModel.user" Multiplicity="1" />
+          <End Role="addresses" Type="dealsModel.address" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="addresses">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_deal_banners">
+          <End Role="banners" Type="dealsModel.banner" Multiplicity="1" />
+          <End Role="deal" Type="dealsModel.deal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="banners">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="deal">
+              <PropertyRef Name="bannerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_fkey_banner_id">
+          <End Role="banners" Type="dealsModel.banner" Multiplicity="1" />
+          <End Role="usercarts" Type="dealsModel.usercart" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="banners">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="usercarts">
+              <PropertyRef Name="bannerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_categoryconfig_category">
+          <End Role="category" Type="dealsModel.category" Multiplicity="1" />
+          <End Role="categoryconfig" Type="dealsModel.categoryconfig" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="categoryconfig">
+              <PropertyRef Name="categoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_deal_category">
+          <End Role="category" Type="dealsModel.category" Multiplicity="0..1" />
+          <End Role="deal" Type="dealsModel.deal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="deal">
+              <PropertyRef Name="categoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_deal_locations">
+          <End Role="locations" Type="dealsModel.location" Multiplicity="1" />
+          <End Role="deal" Type="dealsModel.deal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="locations">
+              <PropertyRef Name="locationId" />
+            </Principal>
+            <Dependent Role="deal">
+              <PropertyRef Name="locationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_deal_vendors">
+          <End Role="vendors" Type="dealsModel.vendor" Multiplicity="1" />
+          <End Role="deal" Type="dealsModel.deal" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="vendors">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="deal">
+              <PropertyRef Name="vendorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_fkey_deal_id">
+          <End Role="deal" Type="dealsModel.deal" Multiplicity="1" />
+          <End Role="usercarts" Type="dealsModel.usercart" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="deal">
+              <PropertyRef Name="dealId" />
+            </Principal>
+            <Dependent Role="usercarts">
+              <PropertyRef Name="dealId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_userHistory_deal">
+          <End Role="deal" Type="dealsModel.deal" Multiplicity="1" />
+          <End Role="userhistory" Type="dealsModel.userhistory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="deal">
+              <PropertyRef Name="dealId" />
+            </Principal>
+            <Dependent Role="userhistory">
+              <PropertyRef Name="dealId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_userRating_deals">
+          <End Role="deal" Type="dealsModel.deal" Multiplicity="1" />
+          <End Role="userrating" Type="dealsModel.userrating" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="deal">
+              <PropertyRef Name="dealId" />
+            </Principal>
+            <Dependent Role="userrating">
+              <PropertyRef Name="dealId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_userReviews_deals">
+          <End Role="deal" Type="dealsModel.deal" Multiplicity="1" />
+          <End Role="userreviews" Type="dealsModel.userreview" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="deal">
+              <PropertyRef Name="dealId" />
+            </Principal>
+            <Dependent Role="userreviews">
+              <PropertyRef Name="dealId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_fkey_location_id">
+          <End Role="locations" Type="dealsModel.location" Multiplicity="1" />
+          <End Role="usercarts" Type="dealsModel.usercart" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="locations">
+              <PropertyRef Name="locationId" />
+            </Principal>
+            <Dependent Role="usercarts">
+              <PropertyRef Name="locationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_orderItems_orders">
+          <End Role="orders" Type="dealsModel.order" Multiplicity="1" />
+          <End Role="orderitems" Type="dealsModel.orderitem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="orders">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="orderitems">
+              <PropertyRef Name="orderId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_orders_shipping">
+          <End Role="shippingaddress" Type="dealsModel.shippingaddress" Multiplicity="1" />
+          <End Role="orders" Type="dealsModel.order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="shippingaddress">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="orders">
+              <PropertyRef Name="shippingId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_orders_users">
+          <End Role="users" Type="dealsModel.user" Multiplicity="0..1" />
+          <End Role="orders" Type="dealsModel.order" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="orders">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_shippingadd_userid">
+          <End Role="users" Type="dealsModel.user" Multiplicity="1" />
+          <End Role="shippingaddress" Type="dealsModel.shippingaddress" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="shippingaddress">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_fkey_vendor_id">
+          <End Role="vendors" Type="dealsModel.vendor" Multiplicity="1" />
+          <End Role="usercarts" Type="dealsModel.usercart" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="vendors">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="usercarts">
+              <PropertyRef Name="vendorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_userHistory_users">
+          <End Role="users" Type="dealsModel.user" Multiplicity="1" />
+          <End Role="userhistory" Type="dealsModel.userhistory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="userhistory">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_userRating_users">
+          <End Role="users" Type="dealsModel.user" Multiplicity="1" />
+          <End Role="userrating" Type="dealsModel.userrating" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="userrating">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_userReviews_users">
+          <End Role="users" Type="dealsModel.user" Multiplicity="1" />
+          <End Role="userreviews" Type="dealsModel.userreview" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="userreviews">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dealsModelStoreContainer" CdmEntityContainer="dealsEntities">
+          <EntitySetMapping Name="addresses">
+            <EntityTypeMapping TypeName="dealsModel.address">
+              <MappingFragment StoreEntitySet="addresses">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="userId" ColumnName="userId" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="pincode" ColumnName="pincode" />
+                <ScalarProperty Name="address1" ColumnName="address" />
+                <ScalarProperty Name="landmark" ColumnName="landmark" />
+                <ScalarProperty Name="city" ColumnName="city" />
+                <ScalarProperty Name="state" ColumnName="state" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="isDefault" ColumnName="isDefault" />
+                <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="authentication_token">
+            <EntityTypeMapping TypeName="dealsModel.authentication_token">
+              <MappingFragment StoreEntitySet="authentication_token">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="userid" ColumnName="userid" />
+                <ScalarProperty Name="token" ColumnName="token" />
+                <ScalarProperty Name="created" ColumnName="created" />
+                <ScalarProperty Name="expiretime" ColumnName="expiretime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="banners">
+            <EntityTypeMapping TypeName="dealsModel.banner">
+              <MappingFragment StoreEntitySet="banners">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="createdDate" ColumnName="createdDate" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="categories">
+            <EntityTypeMapping TypeName="dealsModel.category">
+              <MappingFragment StoreEntitySet="category">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="categoryconfigs">
+            <EntityTypeMapping TypeName="dealsModel.categoryconfig">
+              <MappingFragment StoreEntitySet="categoryconfig">
+                <ScalarProperty Name="isMore" ColumnName="isMore" />
+                <ScalarProperty Name="displayItems" ColumnName="displayItems" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="categoryId" ColumnName="categoryId" />
+                <ScalarProperty Name="sequence" ColumnName="sequence" />
+                <ScalarProperty Name="dateCreated" ColumnName="dateCreated" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="deals">
+            <EntityTypeMapping TypeName="dealsModel.deal">
+              <MappingFragment StoreEntitySet="deal">
+                <ScalarProperty Name="dealId" ColumnName="dealId" />
+                <ScalarProperty Name="vendorId" ColumnName="vendorId" />
+                <ScalarProperty Name="locationId" ColumnName="locationId" />
+                <ScalarProperty Name="bannerId" ColumnName="bannerId" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="categoryId" ColumnName="categoryId" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="startsOn" ColumnName="startsOn" />
+                <ScalarProperty Name="endsOn" ColumnName="endsOn" />
+                <ScalarProperty Name="count" ColumnName="count" />
+                <ScalarProperty Name="image" ColumnName="image" />
+                <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+                <ScalarProperty Name="sold" ColumnName="sold" />
+                <ScalarProperty Name="unitPrice" ColumnName="unitPrice" />
+                <ScalarProperty Name="discount" ColumnName="discount" />
+                <ScalarProperty Name="sellingPrice" ColumnName="sellingPrice" />
+                <ScalarProperty Name="hasShipping" ColumnName="hasShipping" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="guestids">
+            <EntityTypeMapping TypeName="dealsModel.guestid">
+              <MappingFragment StoreEntitySet="guestid">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="guest_id" ColumnName="guest_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="locations">
+            <EntityTypeMapping TypeName="dealsModel.location">
+              <MappingFragment StoreEntitySet="locations">
+                <ScalarProperty Name="parentId" ColumnName="parentId" />
+                <ScalarProperty Name="locationId" ColumnName="locationId" />
+                <ScalarProperty Name="locationName" ColumnName="locationName" />
+                <ScalarProperty Name="createddate" ColumnName="createddate" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="orderitems">
+            <EntityTypeMapping TypeName="dealsModel.orderitem">
+              <MappingFragment StoreEntitySet="orderitems">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="orderId" ColumnName="orderId" />
+                <ScalarProperty Name="dealId" ColumnName="dealId" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+                <ScalarProperty Name="unitPrice" ColumnName="unitPrice" />
+                <ScalarProperty Name="discount" ColumnName="discount" />
+                <ScalarProperty Name="sellingPrice" ColumnName="sellingPrice" />
+                <ScalarProperty Name="subTotal" ColumnName="subTotal" />
+                <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="orders">
+            <EntityTypeMapping TypeName="dealsModel.order">
+              <MappingFragment StoreEntitySet="orders">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="orderId" ColumnName="orderId" />
+                <ScalarProperty Name="userId" ColumnName="userId" />
+                <ScalarProperty Name="orderStatus" ColumnName="orderStatus" />
+                <ScalarProperty Name="subTotal" ColumnName="subTotal" />
+                <ScalarProperty Name="promoCode" ColumnName="promoCode" />
+                <ScalarProperty Name="promoDiscount" ColumnName="promoDiscount" />
+                <ScalarProperty Name="grandTotal" ColumnName="grandTotal" />
+                <ScalarProperty Name="shippingId" ColumnName="shippingId" />
+                <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="promocodes">
+            <EntityTypeMapping TypeName="dealsModel.promocode">
+              <MappingFragment StoreEntitySet="promocodes">
+                <ScalarProperty Name="promoId" ColumnName="promoId" />
+                <ScalarProperty Name="promoCode1" ColumnName="promoCode" />
+                <ScalarProperty Name="promoValue" ColumnName="promoValue" />
+                <ScalarProperty Name="categoryId" ColumnName="categoryId" />
+                <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+                <ScalarProperty Name="expiresOn" ColumnName="expiresOn" />
+                <ScalarProperty Name="isPercentage" ColumnName="isPercentage" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="shippingaddresses">
+            <EntityTypeMapping TypeName="dealsModel.shippingaddress">
+              <MappingFragment StoreEntitySet="shippingaddress">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="userId" ColumnName="userId" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="pincode" ColumnName="pincode" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="landmark" ColumnName="landmark" />
+                <ScalarProperty Name="city" ColumnName="city" />
+                <ScalarProperty Name="state" ColumnName="state" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="states">
+            <EntityTypeMapping TypeName="dealsModel.state">
+              <MappingFragment StoreEntitySet="states">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+                <ScalarProperty Name="isactive" ColumnName="isactive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="usercarts">
+            <EntityTypeMapping TypeName="dealsModel.usercart">
+              <MappingFragment StoreEntitySet="usercarts">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="userId" ColumnName="userId" />
+                <ScalarProperty Name="locationId" ColumnName="locationId" />
+                <ScalarProperty Name="bannerId" ColumnName="bannerId" />
+                <ScalarProperty Name="vendorId" ColumnName="vendorId" />
+                <ScalarProperty Name="quantity" ColumnName="quantity" />
+                <ScalarProperty Name="dateCreated" ColumnName="dateCreated" />
+                <ScalarProperty Name="dateModified" ColumnName="dateModified" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+                <ScalarProperty Name="dealId" ColumnName="dealId" />
+                <ScalarProperty Name="isguest" ColumnName="isguest" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="userhistories">
+            <EntityTypeMapping TypeName="dealsModel.userhistory">
+              <MappingFragment StoreEntitySet="userhistory">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="userId" ColumnName="userId" />
+                <ScalarProperty Name="dealId" ColumnName="dealId" />
+                <ScalarProperty Name="dateCreated" ColumnName="dateCreated" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="userratings">
+            <EntityTypeMapping TypeName="dealsModel.userrating">
+              <MappingFragment StoreEntitySet="userrating">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="userId" ColumnName="userId" />
+                <ScalarProperty Name="dealId" ColumnName="dealId" />
+                <ScalarProperty Name="rating" ColumnName="rating" />
+                <ScalarProperty Name="dateCreated" ColumnName="dateCreated" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="userreviews">
+            <EntityTypeMapping TypeName="dealsModel.userreview">
+              <MappingFragment StoreEntitySet="userreviews">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="userId" ColumnName="userId" />
+                <ScalarProperty Name="dealId" ColumnName="dealId" />
+                <ScalarProperty Name="title" ColumnName="title" />
+                <ScalarProperty Name="review" ColumnName="review" />
+                <ScalarProperty Name="rating" ColumnName="rating" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="dateCreated" ColumnName="dateCreated" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="dealsModel.user">
+              <MappingFragment StoreEntitySet="users">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="firstName" ColumnName="firstName" />
+                <ScalarProperty Name="lastName" ColumnName="lastName" />
+                <ScalarProperty Name="userName" ColumnName="userName" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="createdOn" ColumnName="createdOn" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vendors">
+            <EntityTypeMapping TypeName="dealsModel.vendor">
+              <MappingFragment StoreEntitySet="vendors">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="firstname" ColumnName="firstname" />
+                <ScalarProperty Name="lastname" ColumnName="lastname" />
+                <ScalarProperty Name="vendorname" ColumnName="vendorname" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="createddate" ColumnName="createddate" />
+                <ScalarProperty Name="isactive" ColumnName="isactive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

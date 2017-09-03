@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+ * Ideal Image Slider Default Theme
+ * Version: 1.2.0
+ */
+
+.ideal-image-slider {
+	background-repeat: no-repeat;
+	
+}
+#slider{
+	height:calc() !important;
+}
+/* Navigation */
+.iis-previous-nav,
+.iis-next-nav {
+	position: absolute;
+	top: 47%;
+	z-index: 20;
+	display: block;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	background-color: rgba(0,0,0,0.9);
+	border-radius: 50px;
+	background-size: 48px 48px;
+	cursor: pointer;
+	opacity: 0;
+	-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+	-webkit-transition: 0.3s ease-out;
+	   -moz-transition: 0.3s ease-out;
+		 -o-transition: 0.3s ease-out;
+			transition: 0.3s ease-out;
+}
+.iis-previous-nav {
+	left: 5%;
+	background-position: 35% 50%;
+	background-image: url("../images/left_s.png");
+}
+.iis-next-nav {
+	right: 5%;
+	background-position: 65% 50%;
+	background-image: url("../images/right_s.png");
+}
+.ideal-image-slider:hover .iis-previous-nav,
+.ideal-image-slider:hover .iis-next-nav { opacity: 0.5; }
+.ideal-image-slider:hover .iis-previous-nav:hover,
+.ideal-image-slider:hover .iis-next-nav:hover { opacity: 1.0; }
+
+
+

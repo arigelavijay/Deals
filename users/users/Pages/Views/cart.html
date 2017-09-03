@@ -1,0 +1,131 @@
+﻿<div class="pageWrapper container" ng-controller="CartCntrl">
+    <rx-shopy-loader is-data-loading="isDataLoading"></rx-shopy-loader>
+    <div class="main-container col1-layout row" ng-hide="isDataLoading">
+        <div class="main corner-round col-sm-12">
+            <div class="cart">
+                <div class="page-title title-buttons">
+                    <h1 class="cart-header-title">Shopping Bag</h1>
+                    <a class="continue-shop" href="#/home">Continue Shopping</a>
+                    <ul class="checkout-types">
+                        <li>
+                            <button class="button btn-proceed-checkout btn-checkout" type="button" ng-disabled="isChanged" ng-click="checkOut()">
+                                <span><span>Checkout</span> </span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="shopping-cart-table" class="data-table cart-table">
+                            <div class="cart-header">
+                                <div class="row">
+                                    <div class="col-sm-4">Item</div>
+                                    <div class="col-sm-1"></div>
+                                    <div class="col-sm-2"><span class="nobr">Unit Price</span></div>
+                                    <div class="col-sm-1">A.Qty</div>
+                                    <div class="col-sm-2">Qty</div>
+                                    <div class="col-sm-2">Total Price</div>
+                                </div>
+                            </div>
+                            <div class="first odd" ng-repeat="item in CartVm.ItemVm">
+                                <div class="row ">
+                                    <div class="col-sm-4">
+                                        <div class="col-sm-6">
+                                            <a class="product-image thumbnail" title="{{item.name}}" ng-href="#/deal-info/{{item.dealId}}">
+                                                <img width="75" height="75" alt="{{item.name}}" ng-src="{{VendorsUrl}}/UploadedFiles/{{item.vendorId}}/{{item.image}}" />
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h2 class="product-name">
+                                                <a ng-href="#/deal-info/{{item.dealId}}">{{item.name}}</a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <a style="cursor: pointer;" ng-click="remove(item.dealId)">Remove</a>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <span class="cart-price"><span class="price">&nbsp;{{item.sellingPrice | currency:'&#8377; ' : 0 }}</span>
+                                        </span>
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <p>{{ (item.count - item.sold) - (item.quantity) }}</p>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <input id="{{item.dealId}}" type="text" value="{{item.quantity}}" ng-model="item.quantity" ng-class="{'has-error': item.quantity >= (item.count - item.sold)}" min="1" max="{{ item.count - item.sold }}" ng-touch-spin />
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <span class="cart-price"><span class="price">&nbsp;{{ (item.sellingPrice * item.quantity) | currency:'&#8377; ' : 0}}</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" ng-hide="!isChanged">
+                                <div class="col-sm-12 a-right">
+                                    <b class="text-danger">We have detect a change in the shopping cart items, please update the cart to effect changes.</b>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 a-right ">
+                                    <button class="button btn-update" title="Update Shopping Cart" value="update_qty" name="update_cart_action" type="button" ng-click="updateCart()">
+                                        <span><span>Update Shopping Cart</span> </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-collaterals">
+                    <div class="col2-set">
+                        <div class="col-sm-4">
+                        </div>
+                        <div class="col-sm-4">
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="totals">
+                                <table id="shopping-cart-totals-table">
+                                    <tfoot>
+                                        <tr>
+                                            <td class="a-right" colspan="3" style="">
+                                                <strong>Grand Total</strong>
+                                            </td>
+                                            <td class="a-right" style="">
+                                                <strong><span class="price">&nbsp;{{GrandTotal() | currency:'&#8377; ' : 0}}</span> </strong>
+                                            </td>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr>
+                                            <td class="a-right" colspan="3" style="">Subtotal
+                                            </td>
+                                            <td class="a-right" style="">
+                                                <span class="price">&nbsp;{{SubTotal() | currency:'&#8377; ' : 0}}</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="a-right" colspan="3" style="">Tax
+                                            </td>
+                                            <td class="a-right" style="">
+                                                <span class="price">{{CartVm.Tax | currency:'&#8377; ' : 0}}</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <ul class="checkout-types">
+                                    <li>
+                                        <button class="button btn-proceed-checkout btn-checkout" title="Checkout" type="button" ng-disabled="isChanged" ng-click="checkOut()">
+                                            <span><span>Checkout</span> </span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+</div>

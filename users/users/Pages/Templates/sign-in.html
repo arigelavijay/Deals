@@ -1,0 +1,35 @@
+﻿<div class="row">
+    <div class="col-md-12 center-block">
+        <form id="sign.frmSigin" name="sign.frmSigin" ng-submit="login(log)" ng-class="{'submitted':submitted}" novalidate>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                    <input type="text" class="form-control" placeholder="Username" ng-model="log.userName" required />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-lock"></i></div>
+                    <input type="password" class="form-control" placeholder="Password" ng-model="log.password" required />
+                </div>
+            </div>
+            <button type="submit" id="login_btn" class="btn btn-block bt-login" data-loading-text="Signing In...." ng-click="submitted = true;"><i class="fa fa-sign-in"></i>&nbsp;Login</button>
+            <div class="form-group pull-left">
+                <div class="col-md-12" style="color: red;"><b>{{ errMsg }}</b></div>
+            </div>
+            <div class="clear"></div>
+            <div class="login-modal-footer">
+                <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-md-8">
+                        <i class="fa fa-lock"></i>
+                        <a href="javascript:;" class="forgetpass-tab" ng-click="tabs[2].active = true">Forgot password? </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4">
+                        <i class="fa fa-check"></i>
+                        <a href="javascript:;" class="signup-tab" ng-click="tabs[1].active = true">Sign Up </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

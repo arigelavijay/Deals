@@ -1,0 +1,74 @@
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\RxShopyAdmin.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\RxShopyAdmin.pdb
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\Antlr3.Runtime.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\EntityFramework.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\Newtonsoft.Json.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Mvc.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Optimization.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Providers.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Razor.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.Deployment.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.Razor.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\WebGrease.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\EntityFramework.xml
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\Newtonsoft.Json.xml
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Mvc.xml
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Razor.xml
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.xml
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.Deployment.xml
+E:\deals\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.Razor.xml
+E:\deals\RxShopyAdmin\RxShopyAdmin\obj\Debug\RxShopyAdmin.dll
+E:\deals\RxShopyAdmin\RxShopyAdmin\obj\Debug\RxShopyAdmin.pdb
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\RxShopyAdmin.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\RxShopyAdmin.pdb
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\Antlr3.Runtime.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\EntityFramework.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\Newtonsoft.Json.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Mvc.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Optimization.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Providers.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Razor.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.Deployment.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.Razor.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\WebGrease.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\EntityFramework.xml
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\Newtonsoft.Json.xml
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Mvc.xml
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Razor.xml
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.xml
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.Deployment.xml
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.Razor.xml
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\obj\Debug\RxShopyAdmin.dll
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\obj\Debug\RxShopyAdmin.pdb
+E:\deals\RxShopyAdmin Versions\01042016 - 1\RxShopyAdmin\RxShopyAdmin\obj\Debug\RxShopyAdmin.csprojResolveAssemblyReference.cache
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\RxShopyAdmin.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\RxShopyAdmin.pdb
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\Antlr3.Runtime.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\EntityFramework.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\Microsoft.Web.Infrastructure.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\Newtonsoft.Json.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Mvc.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Optimization.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Providers.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Razor.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.Deployment.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.Razor.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\WebGrease.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\EntityFramework.xml
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\Newtonsoft.Json.xml
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Mvc.xml
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\System.Web.Razor.xml
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.xml
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.Deployment.xml
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\bin\System.Web.WebPages.Razor.xml
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\obj\Debug\RxShopyAdmin.dll
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\obj\Debug\RxShopyAdmin.pdb
+E:\deals\RxShopyAdmin Versions\01062016\RxShopyAdmin\RxShopyAdmin\obj\Debug\RxShopyAdmin.csprojResolveAssemblyReference.cache
